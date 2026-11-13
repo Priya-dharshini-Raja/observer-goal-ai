@@ -1,0 +1,204 @@
+{
+  "queries": [
+    {
+      "query": "Check whether the application prevents brute force login attempts.",
+      "expected": "security"
+    },
+    {
+      "query": "Determine whether sensitive files can be accessed directly.",
+      "expected": "security"
+    },
+    {
+      "query": "Investigate possible insecure direct object references.",
+      "expected": "security"
+    },
+    {
+      "query": "Assess whether login sessions expire after inactivity.",
+      "expected": "security"
+    },
+    {
+      "query": "Determine whether the application validates user permissions.",
+      "expected": "security"
+    },
+    {
+      "query": "Evaluate protection against malicious file uploads.",
+      "expected": "security"
+    },
+    {
+      "query": "Check whether unauthorized users can access restricted resources.",
+      "expected": "security"
+    },
+    {
+      "query": "Review how the application protects confidential information.",
+      "expected": "security"
+    },
+    {
+      "query": "Assess whether password reset requests are properly verified.",
+      "expected": "security"
+    },
+    {
+      "query": "Determine whether suspicious login activity is detected.",
+      "expected": "security"
+    },
+    {
+      "query": "Assess the commercial value of expanding into new regions.",
+      "expected": "business"
+    },
+    {
+      "query": "Estimate the potential return from a new subscription offering.",
+      "expected": "business"
+    },
+    {
+      "query": "Evaluate whether customer acquisition costs are sustainable.",
+      "expected": "business"
+    },
+    {
+      "query": "Determine how the company can reduce customer churn.",
+      "expected": "business"
+    },
+    {
+      "query": "Analyze the financial impact of entering a new market.",
+      "expected": "business"
+    },
+    {
+      "query": "Review the company's ability to generate recurring income.",
+      "expected": "business"
+    },
+    {
+      "query": "Assess the commercial benefits of a premium pricing strategy.",
+      "expected": "business"
+    },
+    {
+      "query": "Evaluate the long-term profitability of the product.",
+      "expected": "business"
+    },
+    {
+      "query": "Determine whether the current offering has a competitive advantage.",
+      "expected": "business"
+    },
+    {
+      "query": "Analyze the potential financial risks of business expansion.",
+      "expected": "business"
+    },
+    {
+      "query": "Inspect how concurrent requests are handled by the server.",
+      "expected": "technical"
+    },
+    {
+      "query": "Evaluate the efficiency of the application's memory management.",
+      "expected": "technical"
+    },
+    {
+      "query": "Check whether the application handles network timeouts correctly.",
+      "expected": "technical"
+    },
+    {
+      "query": "Evaluate the reliability of the message queue implementation.",
+      "expected": "technical"
+    },
+    {
+      "query": "Analyze the application's containerization approach.",
+      "expected": "technical"
+    },
+    {
+      "query": "Review the versioning strategy for application APIs.",
+      "expected": "technical"
+    },
+    {
+      "query": "Evaluate the efficiency of file storage and retrieval.",
+      "expected": "technical"
+    },
+    {
+      "query": "Review the system's fault tolerance mechanisms.",
+      "expected": "technical"
+    },
+    {
+      "query": "Determine how application services communicate with each other.",
+      "expected": "technical"
+    },
+    {
+      "query": "Assess whether database queries execute efficiently.",
+      "expected": "technical"
+    },
+    {
+      "query": "Determine whether first-time visitors can understand the homepage.",
+      "expected": "user_experience"
+    },
+    {
+      "query": "Check whether form fields provide helpful guidance.",
+      "expected": "user_experience"
+    },
+    {
+      "query": "Assess whether important actions are visually noticeable.",
+      "expected": "user_experience"
+    },
+    {
+      "query": "Review whether the website gives clear loading indicators.",
+      "expected": "user_experience"
+    },
+    {
+      "query": "Determine whether users can easily undo accidental actions.",
+      "expected": "user_experience"
+    },
+    {
+      "query": "Evaluate the consistency of page layouts.",
+      "expected": "user_experience"
+    },
+    {
+      "query": "Assess whether the checkout process is straightforward.",
+      "expected": "user_experience"
+    },
+    {
+      "query": "Review whether icons communicate their intended actions clearly.",
+      "expected": "user_experience"
+    },
+    {
+      "query": "Determine whether users can locate the help section quickly.",
+      "expected": "user_experience"
+    },
+    {
+      "query": "Assess whether the website provides useful confirmation messages.",
+      "expected": "user_experience"
+    },
+    {
+      "query": "Summarize the major elements present in the provided content.",
+      "expected": "general"
+    },
+    {
+      "query": "Summarize the overall information in simple language.",
+      "expected": "general"
+    },
+    {
+      "query": "Provide a neutral overview of the supplied website information.",
+      "expected": "general"
+    },
+    {
+      "query": "Summarize the content at a broad descriptive level.",
+      "expected": "general"
+    },
+    {
+      "query": "Give an integrated overview of all the supplied details.",
+      "expected": "general"
+    },
+    {
+      "query": "Provide a general account of the information presented.",
+      "expected": "general"
+    },
+    {
+      "query": "Describe the supplied material without focusing on one particular aspect.",
+      "expected": "general"
+    },
+    {
+      "query": "Give a balanced summary of the information available.",
+      "expected": "general"
+    },
+    {
+      "query": "Explain what the provided content is about overall.",
+      "expected": "general"
+    },
+    {
+      "query": "Present an objective overview of the supplied information.",
+      "expected": "general"
+    }
+  ]
+}

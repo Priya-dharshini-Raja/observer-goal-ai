@@ -1,0 +1,2207 @@
+{
+    "dataset": "new_manually_curated_independent_test",
+    "total_queries": 200,
+    "correct_predictions": 198,
+    "incorrect_predictions": 2,
+    "accuracy_percentage": 99.0,
+    "macro_precision": 0.9905,
+    "macro_recall": 0.99,
+    "macro_f1_score": 0.9901,
+    "weighted_precision": 0.9905,
+    "weighted_recall": 0.99,
+    "weighted_f1_score": 0.9901,
+    "categories": [
+        "security",
+        "business",
+        "technical",
+        "user_experience",
+        "general"
+    ],
+    "class_distribution": {
+        "security": 40,
+        "business": 40,
+        "technical": 40,
+        "user_experience": 40,
+        "general": 40
+    },
+    "confusion_matrix": [
+        [
+            39,
+            0,
+            0,
+            1,
+            0
+        ],
+        [
+            0,
+            40,
+            0,
+            0,
+            0
+        ],
+        [
+            0,
+            0,
+            40,
+            0,
+            0
+        ],
+        [
+            0,
+            0,
+            0,
+            40,
+            0
+        ],
+        [
+            0,
+            0,
+            0,
+            1,
+            39
+        ]
+    ],
+    "classification_report": {
+        "security": {
+            "precision": 1.0,
+            "recall": 0.975,
+            "f1-score": 0.9873417721518988,
+            "support": 40.0
+        },
+        "business": {
+            "precision": 1.0,
+            "recall": 1.0,
+            "f1-score": 1.0,
+            "support": 40.0
+        },
+        "technical": {
+            "precision": 1.0,
+            "recall": 1.0,
+            "f1-score": 1.0,
+            "support": 40.0
+        },
+        "user_experience": {
+            "precision": 0.9523809523809523,
+            "recall": 1.0,
+            "f1-score": 0.975609756097561,
+            "support": 40.0
+        },
+        "general": {
+            "precision": 1.0,
+            "recall": 0.975,
+            "f1-score": 0.9873417721518988,
+            "support": 40.0
+        },
+        "accuracy": 0.99,
+        "macro avg": {
+            "precision": 0.9904761904761905,
+            "recall": 0.99,
+            "f1-score": 0.9900586600802717,
+            "support": 200.0
+        },
+        "weighted avg": {
+            "precision": 0.9904761904761905,
+            "recall": 0.99,
+            "f1-score": 0.9900586600802719,
+            "support": 200.0
+        }
+    },
+    "detailed_results": [
+        {
+            "id": 1,
+            "query": "Can someone access another customer's account by changing the user ID in a URL?",
+            "expected_goal": "security",
+            "predicted_goal": "security",
+            "goal_weights": {
+                "security": 0.8,
+                "business": 0.2
+            },
+            "correct": true
+        },
+        {
+            "id": 2,
+            "query": "What could happen if an attacker repeatedly guesses passwords on the sign-in page?",
+            "expected_goal": "security",
+            "predicted_goal": "security",
+            "goal_weights": {
+                "security": 1.0
+            },
+            "correct": true
+        },
+        {
+            "id": 3,
+            "query": "The application stores passwords in plain text. What is the risk?",
+            "expected_goal": "security",
+            "predicted_goal": "security",
+            "goal_weights": {
+                "security": 1.0
+            },
+            "correct": true
+        },
+        {
+            "id": 4,
+            "query": "A logged-in user closes the browser, but the session remains active. Is this safe?",
+            "expected_goal": "security",
+            "predicted_goal": "security",
+            "goal_weights": {
+                "security": 0.6,
+                "user_experience": 0.4
+            },
+            "correct": true
+        },
+        {
+            "id": 5,
+            "query": "Can malicious JavaScript be injected through the comments section?",
+            "expected_goal": "security",
+            "predicted_goal": "security",
+            "goal_weights": {
+                "security": 1.0
+            },
+            "correct": true
+        },
+        {
+            "id": 6,
+            "query": "Why should an API avoid returning private customer information?",
+            "expected_goal": "security",
+            "predicted_goal": "security",
+            "goal_weights": {
+                "security": 0.44,
+                "business": 0.32,
+                "technical": 0.24
+            },
+            "correct": true
+        },
+        {
+            "id": 7,
+            "query": "A normal user can open an administrator page. What security issue does this indicate?",
+            "expected_goal": "security",
+            "predicted_goal": "security",
+            "goal_weights": {
+                "security": 1.0
+            },
+            "correct": true
+        },
+        {
+            "id": 8,
+            "query": "How can a website prevent forged requests submitted from another site?",
+            "expected_goal": "security",
+            "predicted_goal": "security",
+            "goal_weights": {
+                "security": 1.0
+            },
+            "correct": true
+        },
+        {
+            "id": 9,
+            "query": "The server displays detailed error messages containing internal paths. Is this dangerous?",
+            "expected_goal": "security",
+            "predicted_goal": "security",
+            "goal_weights": {
+                "security": 0.58,
+                "user_experience": 0.42
+            },
+            "correct": true
+        },
+        {
+            "id": 10,
+            "query": "How should an application protect passwords while transmitting them?",
+            "expected_goal": "security",
+            "predicted_goal": "security",
+            "goal_weights": {
+                "security": 1.0
+            },
+            "correct": true
+        },
+        {
+            "id": 11,
+            "query": "Can an attacker manipulate database queries through an input field?",
+            "expected_goal": "security",
+            "predicted_goal": "security",
+            "goal_weights": {
+                "security": 0.55,
+                "technical": 0.45
+            },
+            "correct": true
+        },
+        {
+            "id": 12,
+            "query": "What security risks arise when authentication tokens never expire?",
+            "expected_goal": "security",
+            "predicted_goal": "security",
+            "goal_weights": {
+                "security": 1.0
+            },
+            "correct": true
+        },
+        {
+            "id": 13,
+            "query": "How can we prevent unauthorized users from downloading private documents?",
+            "expected_goal": "security",
+            "predicted_goal": "security",
+            "goal_weights": {
+                "security": 1.0
+            },
+            "correct": true
+        },
+        {
+            "id": 14,
+            "query": "The website accepts file uploads without checking their contents. What could go wrong?",
+            "expected_goal": "security",
+            "predicted_goal": "user_experience",
+            "goal_weights": {
+                "security": 0.23,
+                "business": 0.27,
+                "technical": 0.18,
+                "user_experience": 0.32
+            },
+            "correct": false
+        },
+        {
+            "id": 15,
+            "query": "What happens if an application uses a predictable password reset token?",
+            "expected_goal": "security",
+            "predicted_goal": "security",
+            "goal_weights": {
+                "security": 1.0
+            },
+            "correct": true
+        },
+        {
+            "id": 16,
+            "query": "Can sensitive information leak through application logs?",
+            "expected_goal": "security",
+            "predicted_goal": "security",
+            "goal_weights": {
+                "security": 1.0
+            },
+            "correct": true
+        },
+        {
+            "id": 17,
+            "query": "How should access permissions be checked for every API request?",
+            "expected_goal": "security",
+            "predicted_goal": "security",
+            "goal_weights": {
+                "security": 0.56,
+                "technical": 0.44
+            },
+            "correct": true
+        },
+        {
+            "id": 18,
+            "query": "Is it safe to store authentication tokens in exposed browser storage?",
+            "expected_goal": "security",
+            "predicted_goal": "security",
+            "goal_weights": {
+                "security": 1.0
+            },
+            "correct": true
+        },
+        {
+            "id": 19,
+            "query": "What vulnerabilities might arise from outdated server dependencies?",
+            "expected_goal": "security",
+            "predicted_goal": "security",
+            "goal_weights": {
+                "security": 0.86,
+                "technical": 0.14
+            },
+            "correct": true
+        },
+        {
+            "id": 20,
+            "query": "How can repeated login attempts be detected and restricted?",
+            "expected_goal": "security",
+            "predicted_goal": "security",
+            "goal_weights": {
+                "security": 1.0
+            },
+            "correct": true
+        },
+        {
+            "id": 21,
+            "query": "A user can view another person's order by editing a request parameter. Identify the issue.",
+            "expected_goal": "security",
+            "predicted_goal": "security",
+            "goal_weights": {
+                "security": 0.57,
+                "user_experience": 0.43
+            },
+            "correct": true
+        },
+        {
+            "id": 22,
+            "query": "What should happen when a password reset link is used more than once?",
+            "expected_goal": "security",
+            "predicted_goal": "security",
+            "goal_weights": {
+                "security": 1.0
+            },
+            "correct": true
+        },
+        {
+            "id": 23,
+            "query": "How can a website protect against clickjacking?",
+            "expected_goal": "security",
+            "predicted_goal": "security",
+            "goal_weights": {
+                "security": 1.0
+            },
+            "correct": true
+        },
+        {
+            "id": 24,
+            "query": "The application does not validate uploaded file types. Assess the security concern.",
+            "expected_goal": "security",
+            "predicted_goal": "security",
+            "goal_weights": {
+                "security": 1.0
+            },
+            "correct": true
+        },
+        {
+            "id": 25,
+            "query": "Can insecure direct object references expose confidential records?",
+            "expected_goal": "security",
+            "predicted_goal": "security",
+            "goal_weights": {
+                "security": 1.0
+            },
+            "correct": true
+        },
+        {
+            "id": 26,
+            "query": "What security controls should protect an administrator dashboard?",
+            "expected_goal": "security",
+            "predicted_goal": "security",
+            "goal_weights": {
+                "security": 1.0
+            },
+            "correct": true
+        },
+        {
+            "id": 27,
+            "query": "How can suspicious activity involving multiple accounts be detected?",
+            "expected_goal": "security",
+            "predicted_goal": "security",
+            "goal_weights": {
+                "security": 1.0
+            },
+            "correct": true
+        },
+        {
+            "id": 28,
+            "query": "Why is it risky to expose API keys in frontend source code?",
+            "expected_goal": "security",
+            "predicted_goal": "security",
+            "goal_weights": {
+                "security": 0.67,
+                "technical": 0.33
+            },
+            "correct": true
+        },
+        {
+            "id": 29,
+            "query": "What should be checked before trusting data received from a client?",
+            "expected_goal": "security",
+            "predicted_goal": "security",
+            "goal_weights": {
+                "security": 1.0
+            },
+            "correct": true
+        },
+        {
+            "id": 30,
+            "query": "How can an application reduce the impact of a compromised user account?",
+            "expected_goal": "security",
+            "predicted_goal": "security",
+            "goal_weights": {
+                "security": 1.0
+            },
+            "correct": true
+        },
+        {
+            "id": 31,
+            "query": "The system allows unlimited password reset requests. What abuse is possible?",
+            "expected_goal": "security",
+            "predicted_goal": "security",
+            "goal_weights": {
+                "security": 1.0
+            },
+            "correct": true
+        },
+        {
+            "id": 32,
+            "query": "How should confidential information be handled in error responses?",
+            "expected_goal": "security",
+            "predicted_goal": "security",
+            "goal_weights": {
+                "security": 1.0
+            },
+            "correct": true
+        },
+        {
+            "id": 33,
+            "query": "Can an attacker reuse a stolen session cookie to impersonate a user?",
+            "expected_goal": "security",
+            "predicted_goal": "security",
+            "goal_weights": {
+                "security": 1.0
+            },
+            "correct": true
+        },
+        {
+            "id": 34,
+            "query": "What protections are needed for sensitive payment information?",
+            "expected_goal": "security",
+            "predicted_goal": "security",
+            "goal_weights": {
+                "security": 1.0
+            },
+            "correct": true
+        },
+        {
+            "id": 35,
+            "query": "How can weak encryption configurations be identified on a server?",
+            "expected_goal": "security",
+            "predicted_goal": "security",
+            "goal_weights": {
+                "security": 0.85,
+                "technical": 0.15
+            },
+            "correct": true
+        },
+        {
+            "id": 36,
+            "query": "A public endpoint reveals internal employee details. Evaluate the exposure.",
+            "expected_goal": "security",
+            "predicted_goal": "security",
+            "goal_weights": {
+                "security": 0.56,
+                "user_experience": 0.44
+            },
+            "correct": true
+        },
+        {
+            "id": 37,
+            "query": "What risks are associated with missing authorization checks?",
+            "expected_goal": "security",
+            "predicted_goal": "security",
+            "goal_weights": {
+                "security": 1.0
+            },
+            "correct": true
+        },
+        {
+            "id": 38,
+            "query": "How can security headers reduce browser-based attacks?",
+            "expected_goal": "security",
+            "predicted_goal": "security",
+            "goal_weights": {
+                "security": 1.0
+            },
+            "correct": true
+        },
+        {
+            "id": 39,
+            "query": "What should be reviewed before deploying authentication changes?",
+            "expected_goal": "security",
+            "predicted_goal": "security",
+            "goal_weights": {
+                "security": 1.0
+            },
+            "correct": true
+        },
+        {
+            "id": 40,
+            "query": "Assess whether the application properly protects user credentials.",
+            "expected_goal": "security",
+            "predicted_goal": "security",
+            "goal_weights": {
+                "security": 1.0
+            },
+            "correct": true
+        },
+        {
+            "id": 41,
+            "query": "Would introducing a subscription plan improve recurring revenue?",
+            "expected_goal": "business",
+            "predicted_goal": "business",
+            "goal_weights": {
+                "business": 1.0
+            },
+            "correct": true
+        },
+        {
+            "id": 42,
+            "query": "Which customer segment should the company prioritize?",
+            "expected_goal": "business",
+            "predicted_goal": "business",
+            "goal_weights": {
+                "business": 1.0
+            },
+            "correct": true
+        },
+        {
+            "id": 43,
+            "query": "How can this business reduce customer acquisition costs?",
+            "expected_goal": "business",
+            "predicted_goal": "business",
+            "goal_weights": {
+                "business": 1.0
+            },
+            "correct": true
+        },
+        {
+            "id": 44,
+            "query": "Is the current pricing model suitable for small businesses?",
+            "expected_goal": "business",
+            "predicted_goal": "business",
+            "goal_weights": {
+                "business": 1.0
+            },
+            "correct": true
+        },
+        {
+            "id": 45,
+            "query": "What factors could prevent this product from becoming profitable?",
+            "expected_goal": "business",
+            "predicted_goal": "business",
+            "goal_weights": {
+                "business": 1.0
+            },
+            "correct": true
+        },
+        {
+            "id": 46,
+            "query": "Should the company enter a new geographic market?",
+            "expected_goal": "business",
+            "predicted_goal": "business",
+            "goal_weights": {
+                "business": 1.0
+            },
+            "correct": true
+        },
+        {
+            "id": 47,
+            "query": "How can management improve customer lifetime value?",
+            "expected_goal": "business",
+            "predicted_goal": "business",
+            "goal_weights": {
+                "business": 1.0
+            },
+            "correct": true
+        },
+        {
+            "id": 48,
+            "query": "What revenue opportunities could premium features create?",
+            "expected_goal": "business",
+            "predicted_goal": "business",
+            "goal_weights": {
+                "business": 1.0
+            },
+            "correct": true
+        },
+        {
+            "id": 49,
+            "query": "Would partnerships improve the company's market reach?",
+            "expected_goal": "business",
+            "predicted_goal": "business",
+            "goal_weights": {
+                "business": 1.0
+            },
+            "correct": true
+        },
+        {
+            "id": 50,
+            "query": "How should the company evaluate investment returns?",
+            "expected_goal": "business",
+            "predicted_goal": "business",
+            "goal_weights": {
+                "business": 1.0
+            },
+            "correct": true
+        },
+        {
+            "id": 51,
+            "query": "Why are customers choosing competitors?",
+            "expected_goal": "business",
+            "predicted_goal": "business",
+            "goal_weights": {
+                "business": 1.0
+            },
+            "correct": true
+        },
+        {
+            "id": 52,
+            "query": "What strategy could reduce customer cancellations?",
+            "expected_goal": "business",
+            "predicted_goal": "business",
+            "goal_weights": {
+                "business": 1.0
+            },
+            "correct": true
+        },
+        {
+            "id": 53,
+            "query": "Is expanding the sales team financially sensible?",
+            "expected_goal": "business",
+            "predicted_goal": "business",
+            "goal_weights": {
+                "business": 1.0
+            },
+            "correct": true
+        },
+        {
+            "id": 54,
+            "query": "How can the organization improve profit margins?",
+            "expected_goal": "business",
+            "predicted_goal": "business",
+            "goal_weights": {
+                "business": 1.0
+            },
+            "correct": true
+        },
+        {
+            "id": 55,
+            "query": "Which business risks should be considered before launch?",
+            "expected_goal": "business",
+            "predicted_goal": "business",
+            "goal_weights": {
+                "business": 1.0
+            },
+            "correct": true
+        },
+        {
+            "id": 56,
+            "query": "Would a freemium model suit this software?",
+            "expected_goal": "business",
+            "predicted_goal": "business",
+            "goal_weights": {
+                "business": 0.71,
+                "technical": 0.14,
+                "user_experience": 0.15
+            },
+            "correct": true
+        },
+        {
+            "id": 57,
+            "query": "How can the company differentiate its product?",
+            "expected_goal": "business",
+            "predicted_goal": "business",
+            "goal_weights": {
+                "business": 0.58,
+                "user_experience": 0.42
+            },
+            "correct": true
+        },
+        {
+            "id": 58,
+            "query": "Should the business outsource customer support?",
+            "expected_goal": "business",
+            "predicted_goal": "business",
+            "goal_weights": {
+                "business": 1.0
+            },
+            "correct": true
+        },
+        {
+            "id": 59,
+            "query": "What commercial opportunities exist in education?",
+            "expected_goal": "business",
+            "predicted_goal": "business",
+            "goal_weights": {
+                "business": 1.0
+            },
+            "correct": true
+        },
+        {
+            "id": 60,
+            "query": "How can the organization improve sales conversion?",
+            "expected_goal": "business",
+            "predicted_goal": "business",
+            "goal_weights": {
+                "business": 1.0
+            },
+            "correct": true
+        },
+        {
+            "id": 61,
+            "query": "Would reducing prices necessarily increase revenue?",
+            "expected_goal": "business",
+            "predicted_goal": "business",
+            "goal_weights": {
+                "business": 1.0
+            },
+            "correct": true
+        },
+        {
+            "id": 62,
+            "query": "What financial indicators should management monitor?",
+            "expected_goal": "business",
+            "predicted_goal": "business",
+            "goal_weights": {
+                "security": 0.17,
+                "business": 0.83
+            },
+            "correct": true
+        },
+        {
+            "id": 63,
+            "query": "How can the company build a competitive advantage?",
+            "expected_goal": "business",
+            "predicted_goal": "business",
+            "goal_weights": {
+                "business": 1.0
+            },
+            "correct": true
+        },
+        {
+            "id": 64,
+            "query": "Is the proposed expansion financially sustainable?",
+            "expected_goal": "business",
+            "predicted_goal": "business",
+            "goal_weights": {
+                "business": 1.0
+            },
+            "correct": true
+        },
+        {
+            "id": 65,
+            "query": "Which customer groups are most likely to purchase?",
+            "expected_goal": "business",
+            "predicted_goal": "business",
+            "goal_weights": {
+                "business": 1.0
+            },
+            "correct": true
+        },
+        {
+            "id": 66,
+            "query": "How should the company allocate its marketing budget?",
+            "expected_goal": "business",
+            "predicted_goal": "business",
+            "goal_weights": {
+                "business": 1.0
+            },
+            "correct": true
+        },
+        {
+            "id": 67,
+            "query": "What could explain declining monthly recurring revenue?",
+            "expected_goal": "business",
+            "predicted_goal": "business",
+            "goal_weights": {
+                "business": 1.0
+            },
+            "correct": true
+        },
+        {
+            "id": 68,
+            "query": "Would annual payment options improve cash flow?",
+            "expected_goal": "business",
+            "predicted_goal": "business",
+            "goal_weights": {
+                "business": 1.0
+            },
+            "correct": true
+        },
+        {
+            "id": 69,
+            "query": "How can customer retention improve without higher costs?",
+            "expected_goal": "business",
+            "predicted_goal": "business",
+            "goal_weights": {
+                "business": 1.0
+            },
+            "correct": true
+        },
+        {
+            "id": 70,
+            "query": "What market conditions could affect a product launch?",
+            "expected_goal": "business",
+            "predicted_goal": "business",
+            "goal_weights": {
+                "business": 1.0
+            },
+            "correct": true
+        },
+        {
+            "id": 71,
+            "query": "Should the organization invest in a new distribution channel?",
+            "expected_goal": "business",
+            "predicted_goal": "business",
+            "goal_weights": {
+                "business": 1.0
+            },
+            "correct": true
+        },
+        {
+            "id": 72,
+            "query": "How can a startup validate customer willingness to pay?",
+            "expected_goal": "business",
+            "predicted_goal": "business",
+            "goal_weights": {
+                "business": 1.0
+            },
+            "correct": true
+        },
+        {
+            "id": 73,
+            "query": "What are the commercial implications of a partnership?",
+            "expected_goal": "business",
+            "predicted_goal": "business",
+            "goal_weights": {
+                "business": 1.0
+            },
+            "correct": true
+        },
+        {
+            "id": 74,
+            "query": "How should management compare investment opportunities?",
+            "expected_goal": "business",
+            "predicted_goal": "business",
+            "goal_weights": {
+                "business": 1.0
+            },
+            "correct": true
+        },
+        {
+            "id": 75,
+            "query": "What strategies could increase average revenue per customer?",
+            "expected_goal": "business",
+            "predicted_goal": "business",
+            "goal_weights": {
+                "business": 1.0
+            },
+            "correct": true
+        },
+        {
+            "id": 76,
+            "query": "Is the business model scalable over five years?",
+            "expected_goal": "business",
+            "predicted_goal": "business",
+            "goal_weights": {
+                "business": 1.0
+            },
+            "correct": true
+        },
+        {
+            "id": 77,
+            "query": "How can the organization reduce revenue concentration?",
+            "expected_goal": "business",
+            "predicted_goal": "business",
+            "goal_weights": {
+                "business": 1.0
+            },
+            "correct": true
+        },
+        {
+            "id": 78,
+            "query": "What opportunities exist for cross-selling?",
+            "expected_goal": "business",
+            "predicted_goal": "business",
+            "goal_weights": {
+                "business": 1.0
+            },
+            "correct": true
+        },
+        {
+            "id": 79,
+            "query": "How should the company respond to lower competitor prices?",
+            "expected_goal": "business",
+            "predicted_goal": "business",
+            "goal_weights": {
+                "business": 1.0
+            },
+            "correct": true
+        },
+        {
+            "id": 80,
+            "query": "Evaluate the business value of launching this product.",
+            "expected_goal": "business",
+            "predicted_goal": "business",
+            "goal_weights": {
+                "business": 1.0
+            },
+            "correct": true
+        },
+        {
+            "id": 81,
+            "query": "Why does the application become slower with thousands of users?",
+            "expected_goal": "technical",
+            "predicted_goal": "technical",
+            "goal_weights": {
+                "technical": 0.75,
+                "user_experience": 0.25
+            },
+            "correct": true
+        },
+        {
+            "id": 82,
+            "query": "How should the database tables be structured?",
+            "expected_goal": "technical",
+            "predicted_goal": "technical",
+            "goal_weights": {
+                "business": 0.13,
+                "technical": 0.77,
+                "user_experience": 0.1
+            },
+            "correct": true
+        },
+        {
+            "id": 83,
+            "query": "Can this backend handle multiple simultaneous clients?",
+            "expected_goal": "technical",
+            "predicted_goal": "technical",
+            "goal_weights": {
+                "technical": 1.0
+            },
+            "correct": true
+        },
+        {
+            "id": 84,
+            "query": "What is causing the API to return a 500 error?",
+            "expected_goal": "technical",
+            "predicted_goal": "technical",
+            "goal_weights": {
+                "security": 0.08,
+                "business": 0.07,
+                "technical": 0.83,
+                "user_experience": 0.02
+            },
+            "correct": true
+        },
+        {
+            "id": 85,
+            "query": "How can repeated database queries be optimized?",
+            "expected_goal": "technical",
+            "predicted_goal": "technical",
+            "goal_weights": {
+                "technical": 0.87,
+                "user_experience": 0.13
+            },
+            "correct": true
+        },
+        {
+            "id": 86,
+            "query": "Would microservices suit this system?",
+            "expected_goal": "technical",
+            "predicted_goal": "technical",
+            "goal_weights": {
+                "security": 0.15,
+                "business": 0.24,
+                "technical": 0.34,
+                "user_experience": 0.27
+            },
+            "correct": true
+        },
+        {
+            "id": 87,
+            "query": "How should the frontend communicate with the backend?",
+            "expected_goal": "technical",
+            "predicted_goal": "technical",
+            "goal_weights": {
+                "technical": 0.8,
+                "user_experience": 0.2
+            },
+            "correct": true
+        },
+        {
+            "id": 88,
+            "query": "Why does the application fail after deployment?",
+            "expected_goal": "technical",
+            "predicted_goal": "technical",
+            "goal_weights": {
+                "business": 0.41,
+                "technical": 0.59
+            },
+            "correct": true
+        },
+        {
+            "id": 89,
+            "query": "How can we reduce API response time?",
+            "expected_goal": "technical",
+            "predicted_goal": "technical",
+            "goal_weights": {
+                "technical": 0.92,
+                "user_experience": 0.08
+            },
+            "correct": true
+        },
+        {
+            "id": 90,
+            "query": "What indexing strategy would improve database searches?",
+            "expected_goal": "technical",
+            "predicted_goal": "technical",
+            "goal_weights": {
+                "business": 0.1,
+                "technical": 0.74,
+                "user_experience": 0.16
+            },
+            "correct": true
+        },
+        {
+            "id": 91,
+            "query": "How should background jobs be handled?",
+            "expected_goal": "technical",
+            "predicted_goal": "technical",
+            "goal_weights": {
+                "security": 0.08,
+                "business": 0.3,
+                "technical": 0.62
+            },
+            "correct": true
+        },
+        {
+            "id": 92,
+            "query": "Can the architecture support horizontal scaling?",
+            "expected_goal": "technical",
+            "predicted_goal": "technical",
+            "goal_weights": {
+                "business": 0.05,
+                "technical": 0.89,
+                "user_experience": 0.06
+            },
+            "correct": true
+        },
+        {
+            "id": 93,
+            "query": "What is middleware used for in REST APIs?",
+            "expected_goal": "technical",
+            "predicted_goal": "technical",
+            "goal_weights": {
+                "security": 0.41,
+                "technical": 0.59
+            },
+            "correct": true
+        },
+        {
+            "id": 94,
+            "query": "How should API versioning be implemented?",
+            "expected_goal": "technical",
+            "predicted_goal": "technical",
+            "goal_weights": {
+                "technical": 1.0
+            },
+            "correct": true
+        },
+        {
+            "id": 95,
+            "query": "Why might simultaneous requests overwrite database records?",
+            "expected_goal": "technical",
+            "predicted_goal": "technical",
+            "goal_weights": {
+                "security": 0.17,
+                "technical": 0.83
+            },
+            "correct": true
+        },
+        {
+            "id": 96,
+            "query": "How can logs help identify production failures?",
+            "expected_goal": "technical",
+            "predicted_goal": "technical",
+            "goal_weights": {
+                "security": 0.22,
+                "business": 0.27,
+                "technical": 0.32,
+                "user_experience": 0.19
+            },
+            "correct": true
+        },
+        {
+            "id": 97,
+            "query": "How should configuration differ across environments?",
+            "expected_goal": "technical",
+            "predicted_goal": "technical",
+            "goal_weights": {
+                "technical": 0.62,
+                "user_experience": 0.38
+            },
+            "correct": true
+        },
+        {
+            "id": 98,
+            "query": "How should the system recover from external service failures?",
+            "expected_goal": "technical",
+            "predicted_goal": "technical",
+            "goal_weights": {
+                "security": 0.21,
+                "business": 0.36,
+                "technical": 0.43
+            },
+            "correct": true
+        },
+        {
+            "id": 99,
+            "query": "Would caching improve frequently requested data?",
+            "expected_goal": "technical",
+            "predicted_goal": "technical",
+            "goal_weights": {
+                "security": 0.04,
+                "technical": 0.9,
+                "user_experience": 0.06
+            },
+            "correct": true
+        },
+        {
+            "id": 100,
+            "query": "How can duplicate database records be prevented?",
+            "expected_goal": "technical",
+            "predicted_goal": "technical",
+            "goal_weights": {
+                "security": 0.18,
+                "technical": 0.82
+            },
+            "correct": true
+        },
+        {
+            "id": 101,
+            "query": "What is the difference between synchronous and asynchronous processing?",
+            "expected_goal": "technical",
+            "predicted_goal": "technical",
+            "goal_weights": {
+                "business": 0.03,
+                "technical": 0.85,
+                "user_experience": 0.12
+            },
+            "correct": true
+        },
+        {
+            "id": 102,
+            "query": "How should database transactions be managed?",
+            "expected_goal": "technical",
+            "predicted_goal": "technical",
+            "goal_weights": {
+                "security": 0.14,
+                "business": 0.15,
+                "technical": 0.63,
+                "user_experience": 0.08
+            },
+            "correct": true
+        },
+        {
+            "id": 103,
+            "query": "Why is memory consumption increasing over time?",
+            "expected_goal": "technical",
+            "predicted_goal": "technical",
+            "goal_weights": {
+                "security": 0.06,
+                "business": 0.07,
+                "technical": 0.74,
+                "user_experience": 0.13
+            },
+            "correct": true
+        },
+        {
+            "id": 104,
+            "query": "How can automated tests enter the deployment pipeline?",
+            "expected_goal": "technical",
+            "predicted_goal": "technical",
+            "goal_weights": {
+                "technical": 1.0
+            },
+            "correct": true
+        },
+        {
+            "id": 105,
+            "query": "What is required to deploy an application using containers?",
+            "expected_goal": "technical",
+            "predicted_goal": "technical",
+            "goal_weights": {
+                "technical": 1.0
+            },
+            "correct": true
+        },
+        {
+            "id": 106,
+            "query": "How can large files be processed without blocking requests?",
+            "expected_goal": "technical",
+            "predicted_goal": "technical",
+            "goal_weights": {
+                "technical": 1.0
+            },
+            "correct": true
+        },
+        {
+            "id": 107,
+            "query": "What changes would make the backend easier to maintain?",
+            "expected_goal": "technical",
+            "predicted_goal": "technical",
+            "goal_weights": {
+                "technical": 0.76,
+                "user_experience": 0.24
+            },
+            "correct": true
+        },
+        {
+            "id": 108,
+            "query": "How can the system communicate with third-party APIs?",
+            "expected_goal": "technical",
+            "predicted_goal": "technical",
+            "goal_weights": {
+                "technical": 1.0
+            },
+            "correct": true
+        },
+        {
+            "id": 109,
+            "query": "Why are some database queries unusually slow?",
+            "expected_goal": "technical",
+            "predicted_goal": "technical",
+            "goal_weights": {
+                "security": 0.08,
+                "technical": 0.82,
+                "user_experience": 0.1
+            },
+            "correct": true
+        },
+        {
+            "id": 110,
+            "query": "How should pagination work for large API responses?",
+            "expected_goal": "technical",
+            "predicted_goal": "technical",
+            "goal_weights": {
+                "business": 0.0,
+                "technical": 0.97,
+                "user_experience": 0.03
+            },
+            "correct": true
+        },
+        {
+            "id": 111,
+            "query": "What happens when database connections are exhausted?",
+            "expected_goal": "technical",
+            "predicted_goal": "technical",
+            "goal_weights": {
+                "security": 0.13,
+                "business": 0.1,
+                "technical": 0.68,
+                "user_experience": 0.09
+            },
+            "correct": true
+        },
+        {
+            "id": 112,
+            "query": "How can CPU and memory usage be monitored?",
+            "expected_goal": "technical",
+            "predicted_goal": "technical",
+            "goal_weights": {
+                "technical": 0.77,
+                "user_experience": 0.23
+            },
+            "correct": true
+        },
+        {
+            "id": 113,
+            "query": "Should this application use SQL or a document database?",
+            "expected_goal": "technical",
+            "predicted_goal": "technical",
+            "goal_weights": {
+                "security": 0.13,
+                "business": 0.13,
+                "technical": 0.58,
+                "user_experience": 0.16
+            },
+            "correct": true
+        },
+        {
+            "id": 114,
+            "query": "How can frontend bundle size be reduced?",
+            "expected_goal": "technical",
+            "predicted_goal": "technical",
+            "goal_weights": {
+                "technical": 0.99,
+                "user_experience": 0.01
+            },
+            "correct": true
+        },
+        {
+            "id": 115,
+            "query": "What causes inconsistent data between services?",
+            "expected_goal": "technical",
+            "predicted_goal": "technical",
+            "goal_weights": {
+                "security": 0.28,
+                "business": 0.26,
+                "technical": 0.46
+            },
+            "correct": true
+        },
+        {
+            "id": 116,
+            "query": "How should exceptions be handled across backend modules?",
+            "expected_goal": "technical",
+            "predicted_goal": "technical",
+            "goal_weights": {
+                "security": 0.12,
+                "technical": 0.84,
+                "user_experience": 0.04
+            },
+            "correct": true
+        },
+        {
+            "id": 117,
+            "query": "Can one codebase support multiple deployment environments?",
+            "expected_goal": "technical",
+            "predicted_goal": "technical",
+            "goal_weights": {
+                "technical": 1.0
+            },
+            "correct": true
+        },
+        {
+            "id": 118,
+            "query": "What is load balancing used for?",
+            "expected_goal": "technical",
+            "predicted_goal": "technical",
+            "goal_weights": {
+                "business": 0.1,
+                "technical": 0.75,
+                "user_experience": 0.15
+            },
+            "correct": true
+        },
+        {
+            "id": 119,
+            "query": "How should API schemas be documented?",
+            "expected_goal": "technical",
+            "predicted_goal": "technical",
+            "goal_weights": {
+                "security": 0.17,
+                "technical": 0.83
+            },
+            "correct": true
+        },
+        {
+            "id": 120,
+            "query": "Review the architecture for performance bottlenecks.",
+            "expected_goal": "technical",
+            "predicted_goal": "technical",
+            "goal_weights": {
+                "technical": 0.8,
+                "user_experience": 0.2
+            },
+            "correct": true
+        },
+        {
+            "id": 121,
+            "query": "I cannot find the checkout button easily. How could the page improve?",
+            "expected_goal": "user_experience",
+            "predicted_goal": "user_experience",
+            "goal_weights": {
+                "user_experience": 1.0
+            },
+            "correct": true
+        },
+        {
+            "id": 122,
+            "query": "Why might first-time visitors struggle with the dashboard?",
+            "expected_goal": "user_experience",
+            "predicted_goal": "user_experience",
+            "goal_weights": {
+                "user_experience": 1.0
+            },
+            "correct": true
+        },
+        {
+            "id": 123,
+            "query": "The registration form asks for too many details. Is this convenient?",
+            "expected_goal": "user_experience",
+            "predicted_goal": "user_experience",
+            "goal_weights": {
+                "security": 0.13,
+                "user_experience": 0.87
+            },
+            "correct": true
+        },
+        {
+            "id": 124,
+            "query": "How can navigation become easier for older users?",
+            "expected_goal": "user_experience",
+            "predicted_goal": "user_experience",
+            "goal_weights": {
+                "user_experience": 1.0
+            },
+            "correct": true
+        },
+        {
+            "id": 125,
+            "query": "The text is difficult to read on mobile. What should change?",
+            "expected_goal": "user_experience",
+            "predicted_goal": "user_experience",
+            "goal_weights": {
+                "user_experience": 1.0
+            },
+            "correct": true
+        },
+        {
+            "id": 126,
+            "query": "Users abandon the form halfway through. What could be wrong?",
+            "expected_goal": "user_experience",
+            "predicted_goal": "user_experience",
+            "goal_weights": {
+                "security": 0.38,
+                "user_experience": 0.62
+            },
+            "correct": true
+        },
+        {
+            "id": 127,
+            "query": "How can error messages become easier to understand?",
+            "expected_goal": "user_experience",
+            "predicted_goal": "user_experience",
+            "goal_weights": {
+                "technical": 0.17,
+                "user_experience": 0.83
+            },
+            "correct": true
+        },
+        {
+            "id": 128,
+            "query": "The menu behaves differently on different pages. How does this affect usability?",
+            "expected_goal": "user_experience",
+            "predicted_goal": "user_experience",
+            "goal_weights": {
+                "user_experience": 1.0
+            },
+            "correct": true
+        },
+        {
+            "id": 129,
+            "query": "Would simpler onboarding help new users?",
+            "expected_goal": "user_experience",
+            "predicted_goal": "user_experience",
+            "goal_weights": {
+                "user_experience": 1.0
+            },
+            "correct": true
+        },
+        {
+            "id": 130,
+            "query": "How can the application become more accessible to screen-reader users?",
+            "expected_goal": "user_experience",
+            "predicted_goal": "user_experience",
+            "goal_weights": {
+                "user_experience": 1.0
+            },
+            "correct": true
+        },
+        {
+            "id": 131,
+            "query": "Users do not notice the primary action button. What could help?",
+            "expected_goal": "user_experience",
+            "predicted_goal": "user_experience",
+            "goal_weights": {
+                "user_experience": 1.0
+            },
+            "correct": true
+        },
+        {
+            "id": 132,
+            "query": "The mobile layout requires horizontal scrolling. How should it improve?",
+            "expected_goal": "user_experience",
+            "predicted_goal": "user_experience",
+            "goal_weights": {
+                "business": 0.02,
+                "user_experience": 0.98
+            },
+            "correct": true
+        },
+        {
+            "id": 133,
+            "query": "How can search help users find information faster?",
+            "expected_goal": "user_experience",
+            "predicted_goal": "user_experience",
+            "goal_weights": {
+                "user_experience": 1.0
+            },
+            "correct": true
+        },
+        {
+            "id": 134,
+            "query": "Why might customers feel confused during payment?",
+            "expected_goal": "user_experience",
+            "predicted_goal": "user_experience",
+            "goal_weights": {
+                "business": 0.49,
+                "user_experience": 0.51
+            },
+            "correct": true
+        },
+        {
+            "id": 135,
+            "query": "Would progress indicators improve registration?",
+            "expected_goal": "user_experience",
+            "predicted_goal": "user_experience",
+            "goal_weights": {
+                "user_experience": 1.0
+            },
+            "correct": true
+        },
+        {
+            "id": 136,
+            "query": "How can we reduce the steps needed to complete a task?",
+            "expected_goal": "user_experience",
+            "predicted_goal": "user_experience",
+            "goal_weights": {
+                "user_experience": 1.0
+            },
+            "correct": true
+        },
+        {
+            "id": 137,
+            "query": "The color contrast is poor. What accessibility problems could result?",
+            "expected_goal": "user_experience",
+            "predicted_goal": "user_experience",
+            "goal_weights": {
+                "user_experience": 1.0
+            },
+            "correct": true
+        },
+        {
+            "id": 138,
+            "query": "How should feedback appear after form submission?",
+            "expected_goal": "user_experience",
+            "predicted_goal": "user_experience",
+            "goal_weights": {
+                "user_experience": 1.0
+            },
+            "correct": true
+        },
+        {
+            "id": 139,
+            "query": "Users frequently click the wrong menu item. Why?",
+            "expected_goal": "user_experience",
+            "predicted_goal": "user_experience",
+            "goal_weights": {
+                "security": 0.3,
+                "user_experience": 0.7
+            },
+            "correct": true
+        },
+        {
+            "id": 140,
+            "query": "How can a dashboard avoid overwhelming visitors?",
+            "expected_goal": "user_experience",
+            "predicted_goal": "user_experience",
+            "goal_weights": {
+                "technical": 0.4,
+                "user_experience": 0.6
+            },
+            "correct": true
+        },
+        {
+            "id": 141,
+            "query": "Would a preview before submission help users?",
+            "expected_goal": "user_experience",
+            "predicted_goal": "user_experience",
+            "goal_weights": {
+                "user_experience": 1.0
+            },
+            "correct": true
+        },
+        {
+            "id": 142,
+            "query": "How can navigation labels become clearer?",
+            "expected_goal": "user_experience",
+            "predicted_goal": "user_experience",
+            "goal_weights": {
+                "user_experience": 1.0
+            },
+            "correct": true
+        },
+        {
+            "id": 143,
+            "query": "The application has very small mobile buttons. Is this usable?",
+            "expected_goal": "user_experience",
+            "predicted_goal": "user_experience",
+            "goal_weights": {
+                "user_experience": 1.0
+            },
+            "correct": true
+        },
+        {
+            "id": 144,
+            "query": "What could make first-time experiences more welcoming?",
+            "expected_goal": "user_experience",
+            "predicted_goal": "user_experience",
+            "goal_weights": {
+                "user_experience": 1.0
+            },
+            "correct": true
+        },
+        {
+            "id": 145,
+            "query": "How can users recover easily after making mistakes?",
+            "expected_goal": "user_experience",
+            "predicted_goal": "user_experience",
+            "goal_weights": {
+                "user_experience": 1.0
+            },
+            "correct": true
+        },
+        {
+            "id": 146,
+            "query": "The page contains too much information. How could its layout improve?",
+            "expected_goal": "user_experience",
+            "predicted_goal": "user_experience",
+            "goal_weights": {
+                "user_experience": 1.0
+            },
+            "correct": true
+        },
+        {
+            "id": 147,
+            "query": "How should interactive elements provide consistent feedback?",
+            "expected_goal": "user_experience",
+            "predicted_goal": "user_experience",
+            "goal_weights": {
+                "user_experience": 1.0
+            },
+            "correct": true
+        },
+        {
+            "id": 148,
+            "query": "Users are unsure whether changes were saved. What should the interface communicate?",
+            "expected_goal": "user_experience",
+            "predicted_goal": "user_experience",
+            "goal_weights": {
+                "security": 0.11,
+                "technical": 0.14,
+                "user_experience": 0.75
+            },
+            "correct": true
+        },
+        {
+            "id": 149,
+            "query": "How can the website support keyboard-only navigation?",
+            "expected_goal": "user_experience",
+            "predicted_goal": "user_experience",
+            "goal_weights": {
+                "user_experience": 1.0
+            },
+            "correct": true
+        },
+        {
+            "id": 150,
+            "query": "The same action requires different steps on different screens. Is this consistent?",
+            "expected_goal": "user_experience",
+            "predicted_goal": "user_experience",
+            "goal_weights": {
+                "user_experience": 1.0
+            },
+            "correct": true
+        },
+        {
+            "id": 151,
+            "query": "How can empty states guide users?",
+            "expected_goal": "user_experience",
+            "predicted_goal": "user_experience",
+            "goal_weights": {
+                "user_experience": 1.0
+            },
+            "correct": true
+        },
+        {
+            "id": 152,
+            "query": "Would clearer labels reduce mistakes in settings?",
+            "expected_goal": "user_experience",
+            "predicted_goal": "user_experience",
+            "goal_weights": {
+                "user_experience": 1.0
+            },
+            "correct": true
+        },
+        {
+            "id": 153,
+            "query": "How can loading progress be communicated effectively?",
+            "expected_goal": "user_experience",
+            "predicted_goal": "user_experience",
+            "goal_weights": {
+                "business": 0.11,
+                "technical": 0.17,
+                "user_experience": 0.72
+            },
+            "correct": true
+        },
+        {
+            "id": 154,
+            "query": "Font styles change across sections. How does this affect readability?",
+            "expected_goal": "user_experience",
+            "predicted_goal": "user_experience",
+            "goal_weights": {
+                "security": 0.02,
+                "user_experience": 0.98
+            },
+            "correct": true
+        },
+        {
+            "id": 155,
+            "query": "What could make product filtering less confusing?",
+            "expected_goal": "user_experience",
+            "predicted_goal": "user_experience",
+            "goal_weights": {
+                "business": 0.32,
+                "user_experience": 0.68
+            },
+            "correct": true
+        },
+        {
+            "id": 156,
+            "query": "How should payment confirmation messages be designed?",
+            "expected_goal": "user_experience",
+            "predicted_goal": "user_experience",
+            "goal_weights": {
+                "business": 0.16,
+                "technical": 0.07,
+                "user_experience": 0.77
+            },
+            "correct": true
+        },
+        {
+            "id": 157,
+            "query": "How can unfamiliar features be explained to users?",
+            "expected_goal": "user_experience",
+            "predicted_goal": "user_experience",
+            "goal_weights": {
+                "user_experience": 1.0
+            },
+            "correct": true
+        },
+        {
+            "id": 158,
+            "query": "Visitors leave the homepage without exploring other sections. Why?",
+            "expected_goal": "user_experience",
+            "predicted_goal": "user_experience",
+            "goal_weights": {
+                "user_experience": 1.0
+            },
+            "correct": true
+        },
+        {
+            "id": 159,
+            "query": "How can the visual hierarchy of the dashboard improve?",
+            "expected_goal": "user_experience",
+            "predicted_goal": "user_experience",
+            "goal_weights": {
+                "technical": 0.38,
+                "user_experience": 0.62
+            },
+            "correct": true
+        },
+        {
+            "id": 160,
+            "query": "Review the user journey and identify frustrating points.",
+            "expected_goal": "user_experience",
+            "predicted_goal": "user_experience",
+            "goal_weights": {
+                "user_experience": 1.0
+            },
+            "correct": true
+        },
+        {
+            "id": 161,
+            "query": "Explain the main idea of this document in simple terms.",
+            "expected_goal": "general",
+            "predicted_goal": "general",
+            "goal_weights": {
+                "general": 1.0
+            },
+            "correct": true
+        },
+        {
+            "id": 162,
+            "query": "What are the important points covered in the supplied material?",
+            "expected_goal": "general",
+            "predicted_goal": "general",
+            "goal_weights": {
+                "general": 1.0
+            },
+            "correct": true
+        },
+        {
+            "id": 163,
+            "query": "Give me a neutral summary without evaluating the information.",
+            "expected_goal": "general",
+            "predicted_goal": "general",
+            "goal_weights": {
+                "general": 1.0
+            },
+            "correct": true
+        },
+        {
+            "id": 164,
+            "query": "Describe the subject for someone unfamiliar with it.",
+            "expected_goal": "general",
+            "predicted_goal": "general",
+            "goal_weights": {
+                "general": 1.0
+            },
+            "correct": true
+        },
+        {
+            "id": 165,
+            "query": "What topics are included in these notes?",
+            "expected_goal": "general",
+            "predicted_goal": "general",
+            "goal_weights": {
+                "general": 1.0
+            },
+            "correct": true
+        },
+        {
+            "id": 166,
+            "query": "Organize the information into a short overview.",
+            "expected_goal": "general",
+            "predicted_goal": "general",
+            "goal_weights": {
+                "general": 1.0
+            },
+            "correct": true
+        },
+        {
+            "id": 167,
+            "query": "Explain how the different sections relate to one another.",
+            "expected_goal": "general",
+            "predicted_goal": "general",
+            "goal_weights": {
+                "general": 1.0
+            },
+            "correct": true
+        },
+        {
+            "id": 168,
+            "query": "What is the central theme of the passage?",
+            "expected_goal": "general",
+            "predicted_goal": "general",
+            "goal_weights": {
+                "general": 1.0
+            },
+            "correct": true
+        },
+        {
+            "id": 169,
+            "query": "Provide a factual description of the supplied content.",
+            "expected_goal": "general",
+            "predicted_goal": "general",
+            "goal_weights": {
+                "general": 1.0
+            },
+            "correct": true
+        },
+        {
+            "id": 170,
+            "query": "Summarize the material without focusing on a particular discipline.",
+            "expected_goal": "general",
+            "predicted_goal": "general",
+            "goal_weights": {
+                "general": 1.0
+            },
+            "correct": true
+        },
+        {
+            "id": 171,
+            "query": "What information does this document provide?",
+            "expected_goal": "general",
+            "predicted_goal": "general",
+            "goal_weights": {
+                "general": 1.0
+            },
+            "correct": true
+        },
+        {
+            "id": 172,
+            "query": "Give me a quick introduction to the subject.",
+            "expected_goal": "general",
+            "predicted_goal": "general",
+            "goal_weights": {
+                "general": 1.0
+            },
+            "correct": true
+        },
+        {
+            "id": 173,
+            "query": "Identify the main subjects mentioned in the passage.",
+            "expected_goal": "general",
+            "predicted_goal": "general",
+            "goal_weights": {
+                "general": 1.0
+            },
+            "correct": true
+        },
+        {
+            "id": 174,
+            "query": "Explain the overall context of these materials.",
+            "expected_goal": "general",
+            "predicted_goal": "general",
+            "goal_weights": {
+                "general": 1.0
+            },
+            "correct": true
+        },
+        {
+            "id": 175,
+            "query": "Write a concise overview using supplied information.",
+            "expected_goal": "general",
+            "predicted_goal": "general",
+            "goal_weights": {
+                "general": 1.0
+            },
+            "correct": true
+        },
+        {
+            "id": 176,
+            "query": "What does the passage discuss from beginning to end?",
+            "expected_goal": "general",
+            "predicted_goal": "general",
+            "goal_weights": {
+                "general": 1.0
+            },
+            "correct": true
+        },
+        {
+            "id": 177,
+            "query": "Present the key information in a reader-friendly format.",
+            "expected_goal": "general",
+            "predicted_goal": "general",
+            "goal_weights": {
+                "general": 1.0
+            },
+            "correct": true
+        },
+        {
+            "id": 178,
+            "query": "What broad themes appear in this document?",
+            "expected_goal": "general",
+            "predicted_goal": "general",
+            "goal_weights": {
+                "general": 1.0
+            },
+            "correct": true
+        },
+        {
+            "id": 179,
+            "query": "Give a plain-language explanation of the material.",
+            "expected_goal": "general",
+            "predicted_goal": "general",
+            "goal_weights": {
+                "general": 1.0
+            },
+            "correct": true
+        },
+        {
+            "id": 180,
+            "query": "Describe the contents without outside assumptions.",
+            "expected_goal": "general",
+            "predicted_goal": "general",
+            "goal_weights": {
+                "general": 1.0
+            },
+            "correct": true
+        },
+        {
+            "id": 181,
+            "query": "What should a new reader understand after reading this?",
+            "expected_goal": "general",
+            "predicted_goal": "general",
+            "goal_weights": {
+                "general": 1.0
+            },
+            "correct": true
+        },
+        {
+            "id": 182,
+            "query": "Create a short synopsis of the supplied text.",
+            "expected_goal": "general",
+            "predicted_goal": "general",
+            "goal_weights": {
+                "general": 1.0
+            },
+            "correct": true
+        },
+        {
+            "id": 183,
+            "query": "Explain the purpose of the material based on its contents.",
+            "expected_goal": "general",
+            "predicted_goal": "general",
+            "goal_weights": {
+                "general": 1.0
+            },
+            "correct": true
+        },
+        {
+            "id": 184,
+            "query": "What major subjects are covered in this collection?",
+            "expected_goal": "general",
+            "predicted_goal": "general",
+            "goal_weights": {
+                "general": 1.0
+            },
+            "correct": true
+        },
+        {
+            "id": 185,
+            "query": "Provide an introductory overview of the information.",
+            "expected_goal": "general",
+            "predicted_goal": "general",
+            "goal_weights": {
+                "general": 1.0
+            },
+            "correct": true
+        },
+        {
+            "id": 186,
+            "query": "Outline the content in a logical order.",
+            "expected_goal": "general",
+            "predicted_goal": "general",
+            "goal_weights": {
+                "general": 1.0
+            },
+            "correct": true
+        },
+        {
+            "id": 187,
+            "query": "Summarize what is presented without making recommendations.",
+            "expected_goal": "general",
+            "predicted_goal": "general",
+            "goal_weights": {
+                "general": 1.0
+            },
+            "correct": true
+        },
+        {
+            "id": 188,
+            "query": "What is the overall message of this passage?",
+            "expected_goal": "general",
+            "predicted_goal": "general",
+            "goal_weights": {
+                "general": 1.0
+            },
+            "correct": true
+        },
+        {
+            "id": 189,
+            "query": "Describe the information available in these sections.",
+            "expected_goal": "general",
+            "predicted_goal": "general",
+            "goal_weights": {
+                "general": 1.0
+            },
+            "correct": true
+        },
+        {
+            "id": 190,
+            "query": "Give a broad overview while retaining the original meaning.",
+            "expected_goal": "general",
+            "predicted_goal": "general",
+            "goal_weights": {
+                "general": 1.0
+            },
+            "correct": true
+        },
+        {
+            "id": 191,
+            "query": "What subjects are discussed in the provided notes?",
+            "expected_goal": "general",
+            "predicted_goal": "general",
+            "goal_weights": {
+                "general": 1.0
+            },
+            "correct": true
+        },
+        {
+            "id": 192,
+            "query": "Prepare a brief factual summary for a general reader.",
+            "expected_goal": "general",
+            "predicted_goal": "general",
+            "goal_weights": {
+                "general": 1.0
+            },
+            "correct": true
+        },
+        {
+            "id": 193,
+            "query": "Explain the relationship between the topics presented.",
+            "expected_goal": "general",
+            "predicted_goal": "user_experience",
+            "goal_weights": {
+                "business": 0.31,
+                "technical": 0.31,
+                "user_experience": 0.38
+            },
+            "correct": false
+        },
+        {
+            "id": 194,
+            "query": "List the main ideas without ranking their importance.",
+            "expected_goal": "general",
+            "predicted_goal": "general",
+            "goal_weights": {
+                "general": 1.0
+            },
+            "correct": true
+        },
+        {
+            "id": 195,
+            "query": "What is this material generally about?",
+            "expected_goal": "general",
+            "predicted_goal": "general",
+            "goal_weights": {
+                "general": 1.0
+            },
+            "correct": true
+        },
+        {
+            "id": 196,
+            "query": "Create an overview of the document's scope.",
+            "expected_goal": "general",
+            "predicted_goal": "general",
+            "goal_weights": {
+                "general": 1.0
+            },
+            "correct": true
+        },
+        {
+            "id": 197,
+            "query": "Summarize the information for someone needing quick orientation.",
+            "expected_goal": "general",
+            "predicted_goal": "general",
+            "goal_weights": {
+                "general": 1.0
+            },
+            "correct": true
+        },
+        {
+            "id": 198,
+            "query": "Describe the major points without judging their quality.",
+            "expected_goal": "general",
+            "predicted_goal": "general",
+            "goal_weights": {
+                "general": 1.0
+            },
+            "correct": true
+        },
+        {
+            "id": 199,
+            "query": "What does the supplied content cover at a high level?",
+            "expected_goal": "general",
+            "predicted_goal": "general",
+            "goal_weights": {
+                "general": 1.0
+            },
+            "correct": true
+        },
+        {
+            "id": 200,
+            "query": "Present a compact overview of the information provided.",
+            "expected_goal": "general",
+            "predicted_goal": "general",
+            "goal_weights": {
+                "general": 1.0
+            },
+            "correct": true
+        }
+    ]
+}

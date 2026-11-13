@@ -1,0 +1,802 @@
+[
+    {
+        "query": "Analyze this request: Check whether the login page is vulnerable to SQL injection.",
+        "expected_goal": "security"
+    },
+    {
+        "query": "Please review the following: Check whether the login page is vulnerable to SQL injection.",
+        "expected_goal": "security"
+    },
+    {
+        "query": "I need an assessment of this: Check whether the login page is vulnerable to SQL injection.",
+        "expected_goal": "security"
+    },
+    {
+        "query": "Can you examine this aspect? Check whether the login page is vulnerable to SQL injection.",
+        "expected_goal": "security"
+    },
+    {
+        "query": "Analyze this request: Evaluate the authentication mechanism against brute force attacks.",
+        "expected_goal": "security"
+    },
+    {
+        "query": "Please review the following: Evaluate the authentication mechanism against brute force attacks.",
+        "expected_goal": "security"
+    },
+    {
+        "query": "I need an assessment of this: Evaluate the authentication mechanism against brute force attacks.",
+        "expected_goal": "security"
+    },
+    {
+        "query": "Can you examine this aspect? Evaluate the authentication mechanism against brute force attacks.",
+        "expected_goal": "security"
+    },
+    {
+        "query": "Analyze this request: Identify weaknesses in password storage and hashing.",
+        "expected_goal": "security"
+    },
+    {
+        "query": "Please review the following: Identify weaknesses in password storage and hashing.",
+        "expected_goal": "security"
+    },
+    {
+        "query": "I need an assessment of this: Identify weaknesses in password storage and hashing.",
+        "expected_goal": "security"
+    },
+    {
+        "query": "Can you examine this aspect? Identify weaknesses in password storage and hashing.",
+        "expected_goal": "security"
+    },
+    {
+        "query": "Analyze this request: Check whether user sessions expire after inactivity.",
+        "expected_goal": "security"
+    },
+    {
+        "query": "Please review the following: Check whether user sessions expire after inactivity.",
+        "expected_goal": "security"
+    },
+    {
+        "query": "I need an assessment of this: Check whether user sessions expire after inactivity.",
+        "expected_goal": "security"
+    },
+    {
+        "query": "Can you examine this aspect? Check whether user sessions expire after inactivity.",
+        "expected_goal": "security"
+    },
+    {
+        "query": "Analyze this request: Assess the application for cross-site scripting vulnerabilities.",
+        "expected_goal": "security"
+    },
+    {
+        "query": "Please review the following: Assess the application for cross-site scripting vulnerabilities.",
+        "expected_goal": "security"
+    },
+    {
+        "query": "I need an assessment of this: Assess the application for cross-site scripting vulnerabilities.",
+        "expected_goal": "security"
+    },
+    {
+        "query": "Can you examine this aspect? Assess the application for cross-site scripting vulnerabilities.",
+        "expected_goal": "security"
+    },
+    {
+        "query": "Analyze this request: Inspect whether sensitive information is exposed in API responses.",
+        "expected_goal": "security"
+    },
+    {
+        "query": "Please review the following: Inspect whether sensitive information is exposed in API responses.",
+        "expected_goal": "security"
+    },
+    {
+        "query": "I need an assessment of this: Inspect whether sensitive information is exposed in API responses.",
+        "expected_goal": "security"
+    },
+    {
+        "query": "Can you examine this aspect? Inspect whether sensitive information is exposed in API responses.",
+        "expected_goal": "security"
+    },
+    {
+        "query": "Analyze this request: Evaluate the access control mechanism for unauthorized access.",
+        "expected_goal": "security"
+    },
+    {
+        "query": "Please review the following: Evaluate the access control mechanism for unauthorized access.",
+        "expected_goal": "security"
+    },
+    {
+        "query": "I need an assessment of this: Evaluate the access control mechanism for unauthorized access.",
+        "expected_goal": "security"
+    },
+    {
+        "query": "Can you examine this aspect? Evaluate the access control mechanism for unauthorized access.",
+        "expected_goal": "security"
+    },
+    {
+        "query": "Analyze this request: Check whether the application protects against CSRF attacks.",
+        "expected_goal": "security"
+    },
+    {
+        "query": "Please review the following: Check whether the application protects against CSRF attacks.",
+        "expected_goal": "security"
+    },
+    {
+        "query": "I need an assessment of this: Check whether the application protects against CSRF attacks.",
+        "expected_goal": "security"
+    },
+    {
+        "query": "Can you examine this aspect? Check whether the application protects against CSRF attacks.",
+        "expected_goal": "security"
+    },
+    {
+        "query": "Analyze this request: Identify possible security misconfigurations in the server.",
+        "expected_goal": "security"
+    },
+    {
+        "query": "Please review the following: Identify possible security misconfigurations in the server.",
+        "expected_goal": "security"
+    },
+    {
+        "query": "I need an assessment of this: Identify possible security misconfigurations in the server.",
+        "expected_goal": "security"
+    },
+    {
+        "query": "Can you examine this aspect? Identify possible security misconfigurations in the server.",
+        "expected_goal": "security"
+    },
+    {
+        "query": "Analyze this request: Assess whether passwords are transmitted securely.",
+        "expected_goal": "security"
+    },
+    {
+        "query": "Please review the following: Assess whether passwords are transmitted securely.",
+        "expected_goal": "security"
+    },
+    {
+        "query": "I need an assessment of this: Assess whether passwords are transmitted securely.",
+        "expected_goal": "security"
+    },
+    {
+        "query": "Can you examine this aspect? Assess whether passwords are transmitted securely.",
+        "expected_goal": "security"
+    },
+    {
+        "query": "Analyze this request: Evaluate the business model and its revenue generation strategy.",
+        "expected_goal": "business"
+    },
+    {
+        "query": "Please review the following: Evaluate the business model and its revenue generation strategy.",
+        "expected_goal": "business"
+    },
+    {
+        "query": "I need an assessment of this: Evaluate the business model and its revenue generation strategy.",
+        "expected_goal": "business"
+    },
+    {
+        "query": "Can you examine this aspect? Evaluate the business model and its revenue generation strategy.",
+        "expected_goal": "business"
+    },
+    {
+        "query": "Analyze this request: Identify opportunities to reduce operational costs.",
+        "expected_goal": "business"
+    },
+    {
+        "query": "Please review the following: Identify opportunities to reduce operational costs.",
+        "expected_goal": "business"
+    },
+    {
+        "query": "I need an assessment of this: Identify opportunities to reduce operational costs.",
+        "expected_goal": "business"
+    },
+    {
+        "query": "Can you examine this aspect? Identify opportunities to reduce operational costs.",
+        "expected_goal": "business"
+    },
+    {
+        "query": "Analyze this request: Analyze the company's competitive position in the market.",
+        "expected_goal": "business"
+    },
+    {
+        "query": "Please review the following: Analyze the company's competitive position in the market.",
+        "expected_goal": "business"
+    },
+    {
+        "query": "I need an assessment of this: Analyze the company's competitive position in the market.",
+        "expected_goal": "business"
+    },
+    {
+        "query": "Can you examine this aspect? Analyze the company's competitive position in the market.",
+        "expected_goal": "business"
+    },
+    {
+        "query": "Analyze this request: Assess the potential return on investment of this product.",
+        "expected_goal": "business"
+    },
+    {
+        "query": "Please review the following: Assess the potential return on investment of this product.",
+        "expected_goal": "business"
+    },
+    {
+        "query": "I need an assessment of this: Assess the potential return on investment of this product.",
+        "expected_goal": "business"
+    },
+    {
+        "query": "Can you examine this aspect? Assess the potential return on investment of this product.",
+        "expected_goal": "business"
+    },
+    {
+        "query": "Analyze this request: Identify the target customer segments for this service.",
+        "expected_goal": "business"
+    },
+    {
+        "query": "Please review the following: Identify the target customer segments for this service.",
+        "expected_goal": "business"
+    },
+    {
+        "query": "I need an assessment of this: Identify the target customer segments for this service.",
+        "expected_goal": "business"
+    },
+    {
+        "query": "Can you examine this aspect? Identify the target customer segments for this service.",
+        "expected_goal": "business"
+    },
+    {
+        "query": "Analyze this request: Evaluate the pricing strategy against market demand.",
+        "expected_goal": "business"
+    },
+    {
+        "query": "Please review the following: Evaluate the pricing strategy against market demand.",
+        "expected_goal": "business"
+    },
+    {
+        "query": "I need an assessment of this: Evaluate the pricing strategy against market demand.",
+        "expected_goal": "business"
+    },
+    {
+        "query": "Can you examine this aspect? Evaluate the pricing strategy against market demand.",
+        "expected_goal": "business"
+    },
+    {
+        "query": "Analyze this request: Analyze the risks affecting business growth.",
+        "expected_goal": "business"
+    },
+    {
+        "query": "Please review the following: Analyze the risks affecting business growth.",
+        "expected_goal": "business"
+    },
+    {
+        "query": "I need an assessment of this: Analyze the risks affecting business growth.",
+        "expected_goal": "business"
+    },
+    {
+        "query": "Can you examine this aspect? Analyze the risks affecting business growth.",
+        "expected_goal": "business"
+    },
+    {
+        "query": "Analyze this request: Recommend strategies to improve customer retention.",
+        "expected_goal": "business"
+    },
+    {
+        "query": "Please review the following: Recommend strategies to improve customer retention.",
+        "expected_goal": "business"
+    },
+    {
+        "query": "I need an assessment of this: Recommend strategies to improve customer retention.",
+        "expected_goal": "business"
+    },
+    {
+        "query": "Can you examine this aspect? Recommend strategies to improve customer retention.",
+        "expected_goal": "business"
+    },
+    {
+        "query": "Analyze this request: Assess the scalability of the business model.",
+        "expected_goal": "business"
+    },
+    {
+        "query": "Please review the following: Assess the scalability of the business model.",
+        "expected_goal": "business"
+    },
+    {
+        "query": "I need an assessment of this: Assess the scalability of the business model.",
+        "expected_goal": "business"
+    },
+    {
+        "query": "Can you examine this aspect? Assess the scalability of the business model.",
+        "expected_goal": "business"
+    },
+    {
+        "query": "Analyze this request: Identify potential opportunities for market expansion.",
+        "expected_goal": "business"
+    },
+    {
+        "query": "Please review the following: Identify potential opportunities for market expansion.",
+        "expected_goal": "business"
+    },
+    {
+        "query": "I need an assessment of this: Identify potential opportunities for market expansion.",
+        "expected_goal": "business"
+    },
+    {
+        "query": "Can you examine this aspect? Identify potential opportunities for market expansion.",
+        "expected_goal": "business"
+    },
+    {
+        "query": "Analyze this request: Analyze the application's backend architecture.",
+        "expected_goal": "technical"
+    },
+    {
+        "query": "Please review the following: Analyze the application's backend architecture.",
+        "expected_goal": "technical"
+    },
+    {
+        "query": "I need an assessment of this: Analyze the application's backend architecture.",
+        "expected_goal": "technical"
+    },
+    {
+        "query": "Can you examine this aspect? Analyze the application's backend architecture.",
+        "expected_goal": "technical"
+    },
+    {
+        "query": "Analyze this request: Evaluate the database schema and its relationships.",
+        "expected_goal": "technical"
+    },
+    {
+        "query": "Please review the following: Evaluate the database schema and its relationships.",
+        "expected_goal": "technical"
+    },
+    {
+        "query": "I need an assessment of this: Evaluate the database schema and its relationships.",
+        "expected_goal": "technical"
+    },
+    {
+        "query": "Can you examine this aspect? Evaluate the database schema and its relationships.",
+        "expected_goal": "technical"
+    },
+    {
+        "query": "Analyze this request: Check whether the API endpoints follow REST principles.",
+        "expected_goal": "technical"
+    },
+    {
+        "query": "Please review the following: Check whether the API endpoints follow REST principles.",
+        "expected_goal": "technical"
+    },
+    {
+        "query": "I need an assessment of this: Check whether the API endpoints follow REST principles.",
+        "expected_goal": "technical"
+    },
+    {
+        "query": "Can you examine this aspect? Check whether the API endpoints follow REST principles.",
+        "expected_goal": "technical"
+    },
+    {
+        "query": "Analyze this request: Identify performance bottlenecks in the application.",
+        "expected_goal": "technical"
+    },
+    {
+        "query": "Please review the following: Identify performance bottlenecks in the application.",
+        "expected_goal": "technical"
+    },
+    {
+        "query": "I need an assessment of this: Identify performance bottlenecks in the application.",
+        "expected_goal": "technical"
+    },
+    {
+        "query": "Can you examine this aspect? Identify performance bottlenecks in the application.",
+        "expected_goal": "technical"
+    },
+    {
+        "query": "Analyze this request: Evaluate the scalability of the system architecture.",
+        "expected_goal": "technical"
+    },
+    {
+        "query": "Please review the following: Evaluate the scalability of the system architecture.",
+        "expected_goal": "technical"
+    },
+    {
+        "query": "I need an assessment of this: Evaluate the scalability of the system architecture.",
+        "expected_goal": "technical"
+    },
+    {
+        "query": "Can you examine this aspect? Evaluate the scalability of the system architecture.",
+        "expected_goal": "technical"
+    },
+    {
+        "query": "Analyze this request: Review the application's error handling mechanism.",
+        "expected_goal": "technical"
+    },
+    {
+        "query": "Please review the following: Review the application's error handling mechanism.",
+        "expected_goal": "technical"
+    },
+    {
+        "query": "I need an assessment of this: Review the application's error handling mechanism.",
+        "expected_goal": "technical"
+    },
+    {
+        "query": "Can you examine this aspect? Review the application's error handling mechanism.",
+        "expected_goal": "technical"
+    },
+    {
+        "query": "Analyze this request: Assess the efficiency of the database queries.",
+        "expected_goal": "technical"
+    },
+    {
+        "query": "Please review the following: Assess the efficiency of the database queries.",
+        "expected_goal": "technical"
+    },
+    {
+        "query": "I need an assessment of this: Assess the efficiency of the database queries.",
+        "expected_goal": "technical"
+    },
+    {
+        "query": "Can you examine this aspect? Assess the efficiency of the database queries.",
+        "expected_goal": "technical"
+    },
+    {
+        "query": "Analyze this request: Analyze the integration between frontend and backend.",
+        "expected_goal": "technical"
+    },
+    {
+        "query": "Please review the following: Analyze the integration between frontend and backend.",
+        "expected_goal": "technical"
+    },
+    {
+        "query": "I need an assessment of this: Analyze the integration between frontend and backend.",
+        "expected_goal": "technical"
+    },
+    {
+        "query": "Can you examine this aspect? Analyze the integration between frontend and backend.",
+        "expected_goal": "technical"
+    },
+    {
+        "query": "Analyze this request: Identify problems in the application's deployment configuration.",
+        "expected_goal": "technical"
+    },
+    {
+        "query": "Please review the following: Identify problems in the application's deployment configuration.",
+        "expected_goal": "technical"
+    },
+    {
+        "query": "I need an assessment of this: Identify problems in the application's deployment configuration.",
+        "expected_goal": "technical"
+    },
+    {
+        "query": "Can you examine this aspect? Identify problems in the application's deployment configuration.",
+        "expected_goal": "technical"
+    },
+    {
+        "query": "Analyze this request: Evaluate the reliability of the system under heavy workloads.",
+        "expected_goal": "technical"
+    },
+    {
+        "query": "Please review the following: Evaluate the reliability of the system under heavy workloads.",
+        "expected_goal": "technical"
+    },
+    {
+        "query": "I need an assessment of this: Evaluate the reliability of the system under heavy workloads.",
+        "expected_goal": "technical"
+    },
+    {
+        "query": "Can you examine this aspect? Evaluate the reliability of the system under heavy workloads.",
+        "expected_goal": "technical"
+    },
+    {
+        "query": "Analyze this request: Evaluate whether the navigation is intuitive for users.",
+        "expected_goal": "user_experience"
+    },
+    {
+        "query": "Please review the following: Evaluate whether the navigation is intuitive for users.",
+        "expected_goal": "user_experience"
+    },
+    {
+        "query": "I need an assessment of this: Evaluate whether the navigation is intuitive for users.",
+        "expected_goal": "user_experience"
+    },
+    {
+        "query": "Can you examine this aspect? Evaluate whether the navigation is intuitive for users.",
+        "expected_goal": "user_experience"
+    },
+    {
+        "query": "Analyze this request: Identify usability problems in the registration process.",
+        "expected_goal": "user_experience"
+    },
+    {
+        "query": "Please review the following: Identify usability problems in the registration process.",
+        "expected_goal": "user_experience"
+    },
+    {
+        "query": "I need an assessment of this: Identify usability problems in the registration process.",
+        "expected_goal": "user_experience"
+    },
+    {
+        "query": "Can you examine this aspect? Identify usability problems in the registration process.",
+        "expected_goal": "user_experience"
+    },
+    {
+        "query": "Analyze this request: Assess the accessibility of the website for users.",
+        "expected_goal": "user_experience"
+    },
+    {
+        "query": "Please review the following: Assess the accessibility of the website for users.",
+        "expected_goal": "user_experience"
+    },
+    {
+        "query": "I need an assessment of this: Assess the accessibility of the website for users.",
+        "expected_goal": "user_experience"
+    },
+    {
+        "query": "Can you examine this aspect? Assess the accessibility of the website for users.",
+        "expected_goal": "user_experience"
+    },
+    {
+        "query": "Analyze this request: Check whether the interface is easy for beginners to understand.",
+        "expected_goal": "user_experience"
+    },
+    {
+        "query": "Please review the following: Check whether the interface is easy for beginners to understand.",
+        "expected_goal": "user_experience"
+    },
+    {
+        "query": "I need an assessment of this: Check whether the interface is easy for beginners to understand.",
+        "expected_goal": "user_experience"
+    },
+    {
+        "query": "Can you examine this aspect? Check whether the interface is easy for beginners to understand.",
+        "expected_goal": "user_experience"
+    },
+    {
+        "query": "Analyze this request: Evaluate the readability of the page layout and typography.",
+        "expected_goal": "user_experience"
+    },
+    {
+        "query": "Please review the following: Evaluate the readability of the page layout and typography.",
+        "expected_goal": "user_experience"
+    },
+    {
+        "query": "I need an assessment of this: Evaluate the readability of the page layout and typography.",
+        "expected_goal": "user_experience"
+    },
+    {
+        "query": "Can you examine this aspect? Evaluate the readability of the page layout and typography.",
+        "expected_goal": "user_experience"
+    },
+    {
+        "query": "Analyze this request: Identify confusing interactions in the checkout process.",
+        "expected_goal": "user_experience"
+    },
+    {
+        "query": "Please review the following: Identify confusing interactions in the checkout process.",
+        "expected_goal": "user_experience"
+    },
+    {
+        "query": "I need an assessment of this: Identify confusing interactions in the checkout process.",
+        "expected_goal": "user_experience"
+    },
+    {
+        "query": "Can you examine this aspect? Identify confusing interactions in the checkout process.",
+        "expected_goal": "user_experience"
+    },
+    {
+        "query": "Analyze this request: Assess the responsiveness of the interface on mobile devices.",
+        "expected_goal": "user_experience"
+    },
+    {
+        "query": "Please review the following: Assess the responsiveness of the interface on mobile devices.",
+        "expected_goal": "user_experience"
+    },
+    {
+        "query": "I need an assessment of this: Assess the responsiveness of the interface on mobile devices.",
+        "expected_goal": "user_experience"
+    },
+    {
+        "query": "Can you examine this aspect? Assess the responsiveness of the interface on mobile devices.",
+        "expected_goal": "user_experience"
+    },
+    {
+        "query": "Analyze this request: Recommend improvements to the overall user journey.",
+        "expected_goal": "user_experience"
+    },
+    {
+        "query": "Please review the following: Recommend improvements to the overall user journey.",
+        "expected_goal": "user_experience"
+    },
+    {
+        "query": "I need an assessment of this: Recommend improvements to the overall user journey.",
+        "expected_goal": "user_experience"
+    },
+    {
+        "query": "Can you examine this aspect? Recommend improvements to the overall user journey.",
+        "expected_goal": "user_experience"
+    },
+    {
+        "query": "Analyze this request: Evaluate the consistency of buttons and visual elements.",
+        "expected_goal": "user_experience"
+    },
+    {
+        "query": "Please review the following: Evaluate the consistency of buttons and visual elements.",
+        "expected_goal": "user_experience"
+    },
+    {
+        "query": "I need an assessment of this: Evaluate the consistency of buttons and visual elements.",
+        "expected_goal": "user_experience"
+    },
+    {
+        "query": "Can you examine this aspect? Evaluate the consistency of buttons and visual elements.",
+        "expected_goal": "user_experience"
+    },
+    {
+        "query": "Analyze this request: Identify areas where users may struggle to complete tasks.",
+        "expected_goal": "user_experience"
+    },
+    {
+        "query": "Please review the following: Identify areas where users may struggle to complete tasks.",
+        "expected_goal": "user_experience"
+    },
+    {
+        "query": "I need an assessment of this: Identify areas where users may struggle to complete tasks.",
+        "expected_goal": "user_experience"
+    },
+    {
+        "query": "Can you examine this aspect? Identify areas where users may struggle to complete tasks.",
+        "expected_goal": "user_experience"
+    },
+    {
+        "query": "Analyze this request: Give a high-level description of the material's contents.",
+        "expected_goal": "general"
+    },
+    {
+        "query": "Please review the following: Give a high-level description of the material's contents.",
+        "expected_goal": "general"
+    },
+    {
+        "query": "I need an assessment of this: Give a high-level description of the material's contents.",
+        "expected_goal": "general"
+    },
+    {
+        "query": "Can you examine this aspect? Give a high-level description of the material's contents.",
+        "expected_goal": "general"
+    },
+    {
+        "query": "Analyze this request: Summarize the main points discussed in the passage.",
+        "expected_goal": "general"
+    },
+    {
+        "query": "Please review the following: Summarize the main points discussed in the passage.",
+        "expected_goal": "general"
+    },
+    {
+        "query": "I need an assessment of this: Summarize the main points discussed in the passage.",
+        "expected_goal": "general"
+    },
+    {
+        "query": "Can you examine this aspect? Summarize the main points discussed in the passage.",
+        "expected_goal": "general"
+    },
+    {
+        "query": "Analyze this request: Explain the overall subject for a first-time reader.",
+        "expected_goal": "general"
+    },
+    {
+        "query": "Please review the following: Explain the overall subject for a first-time reader.",
+        "expected_goal": "general"
+    },
+    {
+        "query": "I need an assessment of this: Explain the overall subject for a first-time reader.",
+        "expected_goal": "general"
+    },
+    {
+        "query": "Can you examine this aspect? Explain the overall subject for a first-time reader.",
+        "expected_goal": "general"
+    },
+    {
+        "query": "Analyze this request: Describe how the supplied sections fit together.",
+        "expected_goal": "general"
+    },
+    {
+        "query": "Please review the following: Describe how the supplied sections fit together.",
+        "expected_goal": "general"
+    },
+    {
+        "query": "I need an assessment of this: Describe how the supplied sections fit together.",
+        "expected_goal": "general"
+    },
+    {
+        "query": "Can you examine this aspect? Describe how the supplied sections fit together.",
+        "expected_goal": "general"
+    },
+    {
+        "query": "Analyze this request: List the main topics mentioned in the material.",
+        "expected_goal": "general"
+    },
+    {
+        "query": "Please review the following: List the main topics mentioned in the material.",
+        "expected_goal": "general"
+    },
+    {
+        "query": "I need an assessment of this: List the main topics mentioned in the material.",
+        "expected_goal": "general"
+    },
+    {
+        "query": "Can you examine this aspect? List the main topics mentioned in the material.",
+        "expected_goal": "general"
+    },
+    {
+        "query": "Analyze this request: Provide an objective overview of the supplied information.",
+        "expected_goal": "general"
+    },
+    {
+        "query": "Please review the following: Provide an objective overview of the supplied information.",
+        "expected_goal": "general"
+    },
+    {
+        "query": "I need an assessment of this: Provide an objective overview of the supplied information.",
+        "expected_goal": "general"
+    },
+    {
+        "query": "Can you examine this aspect? Provide an objective overview of the supplied information.",
+        "expected_goal": "general"
+    },
+    {
+        "query": "Analyze this request: Identify the principal subjects discussed in the text.",
+        "expected_goal": "general"
+    },
+    {
+        "query": "Please review the following: Identify the principal subjects discussed in the text.",
+        "expected_goal": "general"
+    },
+    {
+        "query": "I need an assessment of this: Identify the principal subjects discussed in the text.",
+        "expected_goal": "general"
+    },
+    {
+        "query": "Can you examine this aspect? Identify the principal subjects discussed in the text.",
+        "expected_goal": "general"
+    },
+    {
+        "query": "Analyze this request: Explain the general message conveyed by the content.",
+        "expected_goal": "general"
+    },
+    {
+        "query": "Please review the following: Explain the general message conveyed by the content.",
+        "expected_goal": "general"
+    },
+    {
+        "query": "I need an assessment of this: Explain the general message conveyed by the content.",
+        "expected_goal": "general"
+    },
+    {
+        "query": "Can you examine this aspect? Explain the general message conveyed by the content.",
+        "expected_goal": "general"
+    },
+    {
+        "query": "Analyze this request: Describe the scope of the supplied material.",
+        "expected_goal": "general"
+    },
+    {
+        "query": "Please review the following: Describe the scope of the supplied material.",
+        "expected_goal": "general"
+    },
+    {
+        "query": "I need an assessment of this: Describe the scope of the supplied material.",
+        "expected_goal": "general"
+    },
+    {
+        "query": "Can you examine this aspect? Describe the scope of the supplied material.",
+        "expected_goal": "general"
+    },
+    {
+        "query": "Analyze this request: Provide a concise summary of the available information.",
+        "expected_goal": "general"
+    },
+    {
+        "query": "Please review the following: Provide a concise summary of the available information.",
+        "expected_goal": "general"
+    },
+    {
+        "query": "I need an assessment of this: Provide a concise summary of the available information.",
+        "expected_goal": "general"
+    },
+    {
+        "query": "Can you examine this aspect? Provide a concise summary of the available information.",
+        "expected_goal": "general"
+    }
+]

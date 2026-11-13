@@ -1,0 +1,802 @@
+[
+    {
+        "query": "Can someone access another customer's account by changing the user ID in a URL?",
+        "expected_goal": "security"
+    },
+    {
+        "query": "What could happen if an attacker repeatedly guesses passwords on the sign-in page?",
+        "expected_goal": "security"
+    },
+    {
+        "query": "The application stores passwords in plain text. What is the risk?",
+        "expected_goal": "security"
+    },
+    {
+        "query": "A logged-in user closes the browser, but the session remains active. Is this safe?",
+        "expected_goal": "security"
+    },
+    {
+        "query": "Can malicious JavaScript be injected through the comments section?",
+        "expected_goal": "security"
+    },
+    {
+        "query": "Why should an API avoid returning private customer information?",
+        "expected_goal": "security"
+    },
+    {
+        "query": "A normal user can open an administrator page. What security issue does this indicate?",
+        "expected_goal": "security"
+    },
+    {
+        "query": "How can a website prevent forged requests submitted from another site?",
+        "expected_goal": "security"
+    },
+    {
+        "query": "The server displays detailed error messages containing internal paths. Is this dangerous?",
+        "expected_goal": "security"
+    },
+    {
+        "query": "How should an application protect passwords while transmitting them?",
+        "expected_goal": "security"
+    },
+    {
+        "query": "Can an attacker manipulate database queries through an input field?",
+        "expected_goal": "security"
+    },
+    {
+        "query": "What security risks arise when authentication tokens never expire?",
+        "expected_goal": "security"
+    },
+    {
+        "query": "How can we prevent unauthorized users from downloading private documents?",
+        "expected_goal": "security"
+    },
+    {
+        "query": "The website accepts file uploads without checking their contents. What could go wrong?",
+        "expected_goal": "security"
+    },
+    {
+        "query": "What happens if an application uses a predictable password reset token?",
+        "expected_goal": "security"
+    },
+    {
+        "query": "Can sensitive information leak through application logs?",
+        "expected_goal": "security"
+    },
+    {
+        "query": "How should access permissions be checked for every API request?",
+        "expected_goal": "security"
+    },
+    {
+        "query": "Is it safe to store authentication tokens in exposed browser storage?",
+        "expected_goal": "security"
+    },
+    {
+        "query": "What vulnerabilities might arise from outdated server dependencies?",
+        "expected_goal": "security"
+    },
+    {
+        "query": "How can repeated login attempts be detected and restricted?",
+        "expected_goal": "security"
+    },
+    {
+        "query": "A user can view another person's order by editing a request parameter. Identify the issue.",
+        "expected_goal": "security"
+    },
+    {
+        "query": "What should happen when a password reset link is used more than once?",
+        "expected_goal": "security"
+    },
+    {
+        "query": "How can a website protect against clickjacking?",
+        "expected_goal": "security"
+    },
+    {
+        "query": "The application does not validate uploaded file types. Assess the security concern.",
+        "expected_goal": "security"
+    },
+    {
+        "query": "Can insecure direct object references expose confidential records?",
+        "expected_goal": "security"
+    },
+    {
+        "query": "What security controls should protect an administrator dashboard?",
+        "expected_goal": "security"
+    },
+    {
+        "query": "How can suspicious activity involving multiple accounts be detected?",
+        "expected_goal": "security"
+    },
+    {
+        "query": "Why is it risky to expose API keys in frontend source code?",
+        "expected_goal": "security"
+    },
+    {
+        "query": "What should be checked before trusting data received from a client?",
+        "expected_goal": "security"
+    },
+    {
+        "query": "How can an application reduce the impact of a compromised user account?",
+        "expected_goal": "security"
+    },
+    {
+        "query": "The system allows unlimited password reset requests. What abuse is possible?",
+        "expected_goal": "security"
+    },
+    {
+        "query": "How should confidential information be handled in error responses?",
+        "expected_goal": "security"
+    },
+    {
+        "query": "Can an attacker reuse a stolen session cookie to impersonate a user?",
+        "expected_goal": "security"
+    },
+    {
+        "query": "What protections are needed for sensitive payment information?",
+        "expected_goal": "security"
+    },
+    {
+        "query": "How can weak encryption configurations be identified on a server?",
+        "expected_goal": "security"
+    },
+    {
+        "query": "A public endpoint reveals internal employee details. Evaluate the exposure.",
+        "expected_goal": "security"
+    },
+    {
+        "query": "What risks are associated with missing authorization checks?",
+        "expected_goal": "security"
+    },
+    {
+        "query": "How can security headers reduce browser-based attacks?",
+        "expected_goal": "security"
+    },
+    {
+        "query": "What should be reviewed before deploying authentication changes?",
+        "expected_goal": "security"
+    },
+    {
+        "query": "Assess whether the application properly protects user credentials.",
+        "expected_goal": "security"
+    },
+    {
+        "query": "Would introducing a subscription plan improve recurring revenue?",
+        "expected_goal": "business"
+    },
+    {
+        "query": "Which customer segment should the company prioritize?",
+        "expected_goal": "business"
+    },
+    {
+        "query": "How can this business reduce customer acquisition costs?",
+        "expected_goal": "business"
+    },
+    {
+        "query": "Is the current pricing model suitable for small businesses?",
+        "expected_goal": "business"
+    },
+    {
+        "query": "What factors could prevent this product from becoming profitable?",
+        "expected_goal": "business"
+    },
+    {
+        "query": "Should the company enter a new geographic market?",
+        "expected_goal": "business"
+    },
+    {
+        "query": "How can management improve customer lifetime value?",
+        "expected_goal": "business"
+    },
+    {
+        "query": "What revenue opportunities could premium features create?",
+        "expected_goal": "business"
+    },
+    {
+        "query": "Would partnerships improve the company's market reach?",
+        "expected_goal": "business"
+    },
+    {
+        "query": "How should the company evaluate investment returns?",
+        "expected_goal": "business"
+    },
+    {
+        "query": "Why are customers choosing competitors?",
+        "expected_goal": "business"
+    },
+    {
+        "query": "What strategy could reduce customer cancellations?",
+        "expected_goal": "business"
+    },
+    {
+        "query": "Is expanding the sales team financially sensible?",
+        "expected_goal": "business"
+    },
+    {
+        "query": "How can the organization improve profit margins?",
+        "expected_goal": "business"
+    },
+    {
+        "query": "Which business risks should be considered before launch?",
+        "expected_goal": "business"
+    },
+    {
+        "query": "Would a freemium model suit this software?",
+        "expected_goal": "business"
+    },
+    {
+        "query": "How can the company differentiate its product?",
+        "expected_goal": "business"
+    },
+    {
+        "query": "Should the business outsource customer support?",
+        "expected_goal": "business"
+    },
+    {
+        "query": "What commercial opportunities exist in education?",
+        "expected_goal": "business"
+    },
+    {
+        "query": "How can the organization improve sales conversion?",
+        "expected_goal": "business"
+    },
+    {
+        "query": "Would reducing prices necessarily increase revenue?",
+        "expected_goal": "business"
+    },
+    {
+        "query": "What financial indicators should management monitor?",
+        "expected_goal": "business"
+    },
+    {
+        "query": "How can the company build a competitive advantage?",
+        "expected_goal": "business"
+    },
+    {
+        "query": "Is the proposed expansion financially sustainable?",
+        "expected_goal": "business"
+    },
+    {
+        "query": "Which customer groups are most likely to purchase?",
+        "expected_goal": "business"
+    },
+    {
+        "query": "How should the company allocate its marketing budget?",
+        "expected_goal": "business"
+    },
+    {
+        "query": "What could explain declining monthly recurring revenue?",
+        "expected_goal": "business"
+    },
+    {
+        "query": "Would annual payment options improve cash flow?",
+        "expected_goal": "business"
+    },
+    {
+        "query": "How can customer retention improve without higher costs?",
+        "expected_goal": "business"
+    },
+    {
+        "query": "What market conditions could affect a product launch?",
+        "expected_goal": "business"
+    },
+    {
+        "query": "Should the organization invest in a new distribution channel?",
+        "expected_goal": "business"
+    },
+    {
+        "query": "How can a startup validate customer willingness to pay?",
+        "expected_goal": "business"
+    },
+    {
+        "query": "What are the commercial implications of a partnership?",
+        "expected_goal": "business"
+    },
+    {
+        "query": "How should management compare investment opportunities?",
+        "expected_goal": "business"
+    },
+    {
+        "query": "What strategies could increase average revenue per customer?",
+        "expected_goal": "business"
+    },
+    {
+        "query": "Is the business model scalable over five years?",
+        "expected_goal": "business"
+    },
+    {
+        "query": "How can the organization reduce revenue concentration?",
+        "expected_goal": "business"
+    },
+    {
+        "query": "What opportunities exist for cross-selling?",
+        "expected_goal": "business"
+    },
+    {
+        "query": "How should the company respond to lower competitor prices?",
+        "expected_goal": "business"
+    },
+    {
+        "query": "Evaluate the business value of launching this product.",
+        "expected_goal": "business"
+    },
+    {
+        "query": "Why does the application become slower with thousands of users?",
+        "expected_goal": "technical"
+    },
+    {
+        "query": "How should the database tables be structured?",
+        "expected_goal": "technical"
+    },
+    {
+        "query": "Can this backend handle multiple simultaneous clients?",
+        "expected_goal": "technical"
+    },
+    {
+        "query": "What is causing the API to return a 500 error?",
+        "expected_goal": "technical"
+    },
+    {
+        "query": "How can repeated database queries be optimized?",
+        "expected_goal": "technical"
+    },
+    {
+        "query": "Would microservices suit this system?",
+        "expected_goal": "technical"
+    },
+    {
+        "query": "How should the frontend communicate with the backend?",
+        "expected_goal": "technical"
+    },
+    {
+        "query": "Why does the application fail after deployment?",
+        "expected_goal": "technical"
+    },
+    {
+        "query": "How can we reduce API response time?",
+        "expected_goal": "technical"
+    },
+    {
+        "query": "What indexing strategy would improve database searches?",
+        "expected_goal": "technical"
+    },
+    {
+        "query": "How should background jobs be handled?",
+        "expected_goal": "technical"
+    },
+    {
+        "query": "Can the architecture support horizontal scaling?",
+        "expected_goal": "technical"
+    },
+    {
+        "query": "What is middleware used for in REST APIs?",
+        "expected_goal": "technical"
+    },
+    {
+        "query": "How should API versioning be implemented?",
+        "expected_goal": "technical"
+    },
+    {
+        "query": "Why might simultaneous requests overwrite database records?",
+        "expected_goal": "technical"
+    },
+    {
+        "query": "How can logs help identify production failures?",
+        "expected_goal": "technical"
+    },
+    {
+        "query": "How should configuration differ across environments?",
+        "expected_goal": "technical"
+    },
+    {
+        "query": "How should the system recover from external service failures?",
+        "expected_goal": "technical"
+    },
+    {
+        "query": "Would caching improve frequently requested data?",
+        "expected_goal": "technical"
+    },
+    {
+        "query": "How can duplicate database records be prevented?",
+        "expected_goal": "technical"
+    },
+    {
+        "query": "What is the difference between synchronous and asynchronous processing?",
+        "expected_goal": "technical"
+    },
+    {
+        "query": "How should database transactions be managed?",
+        "expected_goal": "technical"
+    },
+    {
+        "query": "Why is memory consumption increasing over time?",
+        "expected_goal": "technical"
+    },
+    {
+        "query": "How can automated tests enter the deployment pipeline?",
+        "expected_goal": "technical"
+    },
+    {
+        "query": "What is required to deploy an application using containers?",
+        "expected_goal": "technical"
+    },
+    {
+        "query": "How can large files be processed without blocking requests?",
+        "expected_goal": "technical"
+    },
+    {
+        "query": "What changes would make the backend easier to maintain?",
+        "expected_goal": "technical"
+    },
+    {
+        "query": "How can the system communicate with third-party APIs?",
+        "expected_goal": "technical"
+    },
+    {
+        "query": "Why are some database queries unusually slow?",
+        "expected_goal": "technical"
+    },
+    {
+        "query": "How should pagination work for large API responses?",
+        "expected_goal": "technical"
+    },
+    {
+        "query": "What happens when database connections are exhausted?",
+        "expected_goal": "technical"
+    },
+    {
+        "query": "How can CPU and memory usage be monitored?",
+        "expected_goal": "technical"
+    },
+    {
+        "query": "Should this application use SQL or a document database?",
+        "expected_goal": "technical"
+    },
+    {
+        "query": "How can frontend bundle size be reduced?",
+        "expected_goal": "technical"
+    },
+    {
+        "query": "What causes inconsistent data between services?",
+        "expected_goal": "technical"
+    },
+    {
+        "query": "How should exceptions be handled across backend modules?",
+        "expected_goal": "technical"
+    },
+    {
+        "query": "Can one codebase support multiple deployment environments?",
+        "expected_goal": "technical"
+    },
+    {
+        "query": "What is load balancing used for?",
+        "expected_goal": "technical"
+    },
+    {
+        "query": "How should API schemas be documented?",
+        "expected_goal": "technical"
+    },
+    {
+        "query": "Review the architecture for performance bottlenecks.",
+        "expected_goal": "technical"
+    },
+    {
+        "query": "I cannot find the checkout button easily. How could the page improve?",
+        "expected_goal": "user_experience"
+    },
+    {
+        "query": "Why might first-time visitors struggle with the dashboard?",
+        "expected_goal": "user_experience"
+    },
+    {
+        "query": "The registration form asks for too many details. Is this convenient?",
+        "expected_goal": "user_experience"
+    },
+    {
+        "query": "How can navigation become easier for older users?",
+        "expected_goal": "user_experience"
+    },
+    {
+        "query": "The text is difficult to read on mobile. What should change?",
+        "expected_goal": "user_experience"
+    },
+    {
+        "query": "Users abandon the form halfway through. What could be wrong?",
+        "expected_goal": "user_experience"
+    },
+    {
+        "query": "How can error messages become easier to understand?",
+        "expected_goal": "user_experience"
+    },
+    {
+        "query": "The menu behaves differently on different pages. How does this affect usability?",
+        "expected_goal": "user_experience"
+    },
+    {
+        "query": "Would simpler onboarding help new users?",
+        "expected_goal": "user_experience"
+    },
+    {
+        "query": "How can the application become more accessible to screen-reader users?",
+        "expected_goal": "user_experience"
+    },
+    {
+        "query": "Users do not notice the primary action button. What could help?",
+        "expected_goal": "user_experience"
+    },
+    {
+        "query": "The mobile layout requires horizontal scrolling. How should it improve?",
+        "expected_goal": "user_experience"
+    },
+    {
+        "query": "How can search help users find information faster?",
+        "expected_goal": "user_experience"
+    },
+    {
+        "query": "Why might customers feel confused during payment?",
+        "expected_goal": "user_experience"
+    },
+    {
+        "query": "Would progress indicators improve registration?",
+        "expected_goal": "user_experience"
+    },
+    {
+        "query": "How can we reduce the steps needed to complete a task?",
+        "expected_goal": "user_experience"
+    },
+    {
+        "query": "The color contrast is poor. What accessibility problems could result?",
+        "expected_goal": "user_experience"
+    },
+    {
+        "query": "How should feedback appear after form submission?",
+        "expected_goal": "user_experience"
+    },
+    {
+        "query": "Users frequently click the wrong menu item. Why?",
+        "expected_goal": "user_experience"
+    },
+    {
+        "query": "How can a dashboard avoid overwhelming visitors?",
+        "expected_goal": "user_experience"
+    },
+    {
+        "query": "Would a preview before submission help users?",
+        "expected_goal": "user_experience"
+    },
+    {
+        "query": "How can navigation labels become clearer?",
+        "expected_goal": "user_experience"
+    },
+    {
+        "query": "The application has very small mobile buttons. Is this usable?",
+        "expected_goal": "user_experience"
+    },
+    {
+        "query": "What could make first-time experiences more welcoming?",
+        "expected_goal": "user_experience"
+    },
+    {
+        "query": "How can users recover easily after making mistakes?",
+        "expected_goal": "user_experience"
+    },
+    {
+        "query": "The page contains too much information. How could its layout improve?",
+        "expected_goal": "user_experience"
+    },
+    {
+        "query": "How should interactive elements provide consistent feedback?",
+        "expected_goal": "user_experience"
+    },
+    {
+        "query": "Users are unsure whether changes were saved. What should the interface communicate?",
+        "expected_goal": "user_experience"
+    },
+    {
+        "query": "How can the website support keyboard-only navigation?",
+        "expected_goal": "user_experience"
+    },
+    {
+        "query": "The same action requires different steps on different screens. Is this consistent?",
+        "expected_goal": "user_experience"
+    },
+    {
+        "query": "How can empty states guide users?",
+        "expected_goal": "user_experience"
+    },
+    {
+        "query": "Would clearer labels reduce mistakes in settings?",
+        "expected_goal": "user_experience"
+    },
+    {
+        "query": "How can loading progress be communicated effectively?",
+        "expected_goal": "user_experience"
+    },
+    {
+        "query": "Font styles change across sections. How does this affect readability?",
+        "expected_goal": "user_experience"
+    },
+    {
+        "query": "What could make product filtering less confusing?",
+        "expected_goal": "user_experience"
+    },
+    {
+        "query": "How should payment confirmation messages be designed?",
+        "expected_goal": "user_experience"
+    },
+    {
+        "query": "How can unfamiliar features be explained to users?",
+        "expected_goal": "user_experience"
+    },
+    {
+        "query": "Visitors leave the homepage without exploring other sections. Why?",
+        "expected_goal": "user_experience"
+    },
+    {
+        "query": "How can the visual hierarchy of the dashboard improve?",
+        "expected_goal": "user_experience"
+    },
+    {
+        "query": "Review the user journey and identify frustrating points.",
+        "expected_goal": "user_experience"
+    },
+    {
+        "query": "Explain the main idea of this document in simple terms.",
+        "expected_goal": "general"
+    },
+    {
+        "query": "What are the important points covered in the supplied material?",
+        "expected_goal": "general"
+    },
+    {
+        "query": "Give me a neutral summary without evaluating the information.",
+        "expected_goal": "general"
+    },
+    {
+        "query": "Describe the subject for someone unfamiliar with it.",
+        "expected_goal": "general"
+    },
+    {
+        "query": "What topics are included in these notes?",
+        "expected_goal": "general"
+    },
+    {
+        "query": "Organize the information into a short overview.",
+        "expected_goal": "general"
+    },
+    {
+        "query": "Explain how the different sections relate to one another.",
+        "expected_goal": "general"
+    },
+    {
+        "query": "What is the central theme of the passage?",
+        "expected_goal": "general"
+    },
+    {
+        "query": "Provide a factual description of the supplied content.",
+        "expected_goal": "general"
+    },
+    {
+        "query": "Summarize the material without focusing on a particular discipline.",
+        "expected_goal": "general"
+    },
+    {
+        "query": "What information does this document provide?",
+        "expected_goal": "general"
+    },
+    {
+        "query": "Give me a quick introduction to the subject.",
+        "expected_goal": "general"
+    },
+    {
+        "query": "Identify the main subjects mentioned in the passage.",
+        "expected_goal": "general"
+    },
+    {
+        "query": "Explain the overall context of these materials.",
+        "expected_goal": "general"
+    },
+    {
+        "query": "Write a concise overview using supplied information.",
+        "expected_goal": "general"
+    },
+    {
+        "query": "What does the passage discuss from beginning to end?",
+        "expected_goal": "general"
+    },
+    {
+        "query": "Present the key information in a reader-friendly format.",
+        "expected_goal": "general"
+    },
+    {
+        "query": "What broad themes appear in this document?",
+        "expected_goal": "general"
+    },
+    {
+        "query": "Give a plain-language explanation of the material.",
+        "expected_goal": "general"
+    },
+    {
+        "query": "Describe the contents without outside assumptions.",
+        "expected_goal": "general"
+    },
+    {
+        "query": "What should a new reader understand after reading this?",
+        "expected_goal": "general"
+    },
+    {
+        "query": "Create a short synopsis of the supplied text.",
+        "expected_goal": "general"
+    },
+    {
+        "query": "Explain the purpose of the material based on its contents.",
+        "expected_goal": "general"
+    },
+    {
+        "query": "What major subjects are covered in this collection?",
+        "expected_goal": "general"
+    },
+    {
+        "query": "Provide an introductory overview of the information.",
+        "expected_goal": "general"
+    },
+    {
+        "query": "Outline the content in a logical order.",
+        "expected_goal": "general"
+    },
+    {
+        "query": "Summarize what is presented without making recommendations.",
+        "expected_goal": "general"
+    },
+    {
+        "query": "What is the overall message of this passage?",
+        "expected_goal": "general"
+    },
+    {
+        "query": "Describe the information available in these sections.",
+        "expected_goal": "general"
+    },
+    {
+        "query": "Give a broad overview while retaining the original meaning.",
+        "expected_goal": "general"
+    },
+    {
+        "query": "What subjects are discussed in the provided notes?",
+        "expected_goal": "general"
+    },
+    {
+        "query": "Prepare a brief factual summary for a general reader.",
+        "expected_goal": "general"
+    },
+    {
+        "query": "Explain the relationship between the topics presented.",
+        "expected_goal": "general"
+    },
+    {
+        "query": "List the main ideas without ranking their importance.",
+        "expected_goal": "general"
+    },
+    {
+        "query": "What is this material generally about?",
+        "expected_goal": "general"
+    },
+    {
+        "query": "Create an overview of the document's scope.",
+        "expected_goal": "general"
+    },
+    {
+        "query": "Summarize the information for someone needing quick orientation.",
+        "expected_goal": "general"
+    },
+    {
+        "query": "Describe the major points without judging their quality.",
+        "expected_goal": "general"
+    },
+    {
+        "query": "What does the supplied content cover at a high level?",
+        "expected_goal": "general"
+    },
+    {
+        "query": "Present a compact overview of the information provided.",
+        "expected_goal": "general"
+    }
+]

@@ -1,0 +1,960 @@
+{
+    "total_queries": 100,
+    "correct_predictions": 97,
+    "incorrect_predictions": 3,
+    "accuracy_percentage": 97.0,
+    "macro_precision": 0.9739,
+    "macro_recall": 0.97,
+    "macro_f1_score": 0.9704,
+    "weighted_precision": 0.9739,
+    "weighted_recall": 0.97,
+    "weighted_f1_score": 0.9704,
+    "confusion_matrix": [
+        [
+            20,
+            0,
+            0,
+            0,
+            0
+        ],
+        [
+            0,
+            20,
+            0,
+            0,
+            0
+        ],
+        [
+            0,
+            0,
+            19,
+            0,
+            1
+        ],
+        [
+            0,
+            0,
+            0,
+            18,
+            2
+        ],
+        [
+            0,
+            0,
+            0,
+            0,
+            20
+        ]
+    ],
+    "categories": [
+        "security",
+        "business",
+        "technical",
+        "user_experience",
+        "general"
+    ],
+    "results": [
+        {
+            "query": "Analyze authentication vulnerabilities in this website.",
+            "expected_goal": "security",
+            "predicted_goal": "security",
+            "goal_weights": {
+                "security": 1.0
+            },
+            "correct": true
+        },
+        {
+            "query": "Check whether unauthorized users can access private data.",
+            "expected_goal": "security",
+            "predicted_goal": "security",
+            "goal_weights": {
+                "security": 1.0
+            },
+            "correct": true
+        },
+        {
+            "query": "Evaluate password protection mechanisms.",
+            "expected_goal": "security",
+            "predicted_goal": "security",
+            "goal_weights": {
+                "security": 1.0
+            },
+            "correct": true
+        },
+        {
+            "query": "Identify possible cybersecurity threats.",
+            "expected_goal": "security",
+            "predicted_goal": "security",
+            "goal_weights": {
+                "security": 1.0
+            },
+            "correct": true
+        },
+        {
+            "query": "Review the website's data encryption methods.",
+            "expected_goal": "security",
+            "predicted_goal": "security",
+            "goal_weights": {
+                "security": 1.0
+            },
+            "correct": true
+        },
+        {
+            "query": "Inspect the website for possible SQL injection vulnerabilities.",
+            "expected_goal": "security",
+            "predicted_goal": "security",
+            "goal_weights": {
+                "security": 1.0
+            },
+            "correct": true
+        },
+        {
+            "query": "Determine whether user sessions are protected against hijacking.",
+            "expected_goal": "security",
+            "predicted_goal": "security",
+            "goal_weights": {
+                "security": 1.0
+            },
+            "correct": true
+        },
+        {
+            "query": "Examine access control mechanisms for sensitive resources.",
+            "expected_goal": "security",
+            "predicted_goal": "security",
+            "goal_weights": {
+                "security": 1.0
+            },
+            "correct": true
+        },
+        {
+            "query": "Assess the security of user authentication tokens.",
+            "expected_goal": "security",
+            "predicted_goal": "security",
+            "goal_weights": {
+                "security": 1.0
+            },
+            "correct": true
+        },
+        {
+            "query": "Check whether confidential information is exposed to unauthorized users.",
+            "expected_goal": "security",
+            "predicted_goal": "security",
+            "goal_weights": {
+                "security": 1.0
+            },
+            "correct": true
+        },
+        {
+            "query": "Evaluate protection against cross-site scripting attacks.",
+            "expected_goal": "security",
+            "predicted_goal": "security",
+            "goal_weights": {
+                "security": 1.0
+            },
+            "correct": true
+        },
+        {
+            "query": "Investigate potential cross-site request forgery risks.",
+            "expected_goal": "security",
+            "predicted_goal": "security",
+            "goal_weights": {
+                "security": 1.0
+            },
+            "correct": true
+        },
+        {
+            "query": "Review the security of account recovery mechanisms.",
+            "expected_goal": "security",
+            "predicted_goal": "security",
+            "goal_weights": {
+                "security": 1.0
+            },
+            "correct": true
+        },
+        {
+            "query": "Determine whether sensitive user data is properly protected.",
+            "expected_goal": "security",
+            "predicted_goal": "security",
+            "goal_weights": {
+                "security": 1.0
+            },
+            "correct": true
+        },
+        {
+            "query": "Examine the website's firewall and network security controls.",
+            "expected_goal": "security",
+            "predicted_goal": "security",
+            "goal_weights": {
+                "security": 1.0
+            },
+            "correct": true
+        },
+        {
+            "query": "Assess whether multi-factor authentication is implemented.",
+            "expected_goal": "security",
+            "predicted_goal": "security",
+            "goal_weights": {
+                "security": 1.0
+            },
+            "correct": true
+        },
+        {
+            "query": "Identify weaknesses in authorization policies.",
+            "expected_goal": "security",
+            "predicted_goal": "security",
+            "goal_weights": {
+                "security": 1.0
+            },
+            "correct": true
+        },
+        {
+            "query": "Review security logging and suspicious activity monitoring.",
+            "expected_goal": "security",
+            "predicted_goal": "security",
+            "goal_weights": {
+                "security": 1.0
+            },
+            "correct": true
+        },
+        {
+            "query": "Evaluate the website's vulnerability management practices.",
+            "expected_goal": "security",
+            "predicted_goal": "security",
+            "goal_weights": {
+                "security": 1.0
+            },
+            "correct": true
+        },
+        {
+            "query": "Check whether secure communication protocols are implemented.",
+            "expected_goal": "security",
+            "predicted_goal": "security",
+            "goal_weights": {
+                "security": 1.0
+            },
+            "correct": true
+        },
+        {
+            "query": "Evaluate the company's revenue generation strategy.",
+            "expected_goal": "business",
+            "predicted_goal": "business",
+            "goal_weights": {
+                "business": 1.0
+            },
+            "correct": true
+        },
+        {
+            "query": "Analyze the subscription pricing model.",
+            "expected_goal": "business",
+            "predicted_goal": "business",
+            "goal_weights": {
+                "business": 1.0
+            },
+            "correct": true
+        },
+        {
+            "query": "Identify opportunities to improve profitability.",
+            "expected_goal": "business",
+            "predicted_goal": "business",
+            "goal_weights": {
+                "business": 1.0
+            },
+            "correct": true
+        },
+        {
+            "query": "Evaluate sales performance and customer growth.",
+            "expected_goal": "business",
+            "predicted_goal": "business",
+            "goal_weights": {
+                "business": 0.9,
+                "technical": 0.1
+            },
+            "correct": true
+        },
+        {
+            "query": "Analyze the company's market opportunities.",
+            "expected_goal": "business",
+            "predicted_goal": "business",
+            "goal_weights": {
+                "business": 1.0
+            },
+            "correct": true
+        },
+        {
+            "query": "Assess the company's long-term financial sustainability.",
+            "expected_goal": "business",
+            "predicted_goal": "business",
+            "goal_weights": {
+                "business": 1.0
+            },
+            "correct": true
+        },
+        {
+            "query": "Examine strategies for increasing recurring subscription revenue.",
+            "expected_goal": "business",
+            "predicted_goal": "business",
+            "goal_weights": {
+                "business": 1.0
+            },
+            "correct": true
+        },
+        {
+            "query": "Determine how effectively the company retains its customers.",
+            "expected_goal": "business",
+            "predicted_goal": "business",
+            "goal_weights": {
+                "business": 1.0
+            },
+            "correct": true
+        },
+        {
+            "query": "Evaluate the company's competitive position in the market.",
+            "expected_goal": "business",
+            "predicted_goal": "business",
+            "goal_weights": {
+                "business": 1.0
+            },
+            "correct": true
+        },
+        {
+            "query": "Identify potential opportunities for business expansion.",
+            "expected_goal": "business",
+            "predicted_goal": "business",
+            "goal_weights": {
+                "business": 1.0
+            },
+            "correct": true
+        },
+        {
+            "query": "Analyze the relationship between operating costs and revenue.",
+            "expected_goal": "business",
+            "predicted_goal": "business",
+            "goal_weights": {
+                "business": 1.0
+            },
+            "correct": true
+        },
+        {
+            "query": "Review the company's customer acquisition strategy.",
+            "expected_goal": "business",
+            "predicted_goal": "business",
+            "goal_weights": {
+                "business": 1.0
+            },
+            "correct": true
+        },
+        {
+            "query": "Assess the effectiveness of current marketing strategies.",
+            "expected_goal": "business",
+            "predicted_goal": "business",
+            "goal_weights": {
+                "business": 1.0
+            },
+            "correct": true
+        },
+        {
+            "query": "Determine whether the pricing structure supports profitability.",
+            "expected_goal": "business",
+            "predicted_goal": "business",
+            "goal_weights": {
+                "business": 1.0
+            },
+            "correct": true
+        },
+        {
+            "query": "Examine the company's revenue diversification opportunities.",
+            "expected_goal": "business",
+            "predicted_goal": "business",
+            "goal_weights": {
+                "business": 1.0
+            },
+            "correct": true
+        },
+        {
+            "query": "Evaluate the financial impact of customer churn.",
+            "expected_goal": "business",
+            "predicted_goal": "business",
+            "goal_weights": {
+                "business": 1.0
+            },
+            "correct": true
+        },
+        {
+            "query": "Analyze potential investment opportunities for the company.",
+            "expected_goal": "business",
+            "predicted_goal": "business",
+            "goal_weights": {
+                "business": 1.0
+            },
+            "correct": true
+        },
+        {
+            "query": "Review the company's product monetization strategy.",
+            "expected_goal": "business",
+            "predicted_goal": "business",
+            "goal_weights": {
+                "business": 1.0
+            },
+            "correct": true
+        },
+        {
+            "query": "Assess the company's ability to scale its business operations.",
+            "expected_goal": "business",
+            "predicted_goal": "business",
+            "goal_weights": {
+                "business": 1.0
+            },
+            "correct": true
+        },
+        {
+            "query": "Identify strategies for improving customer lifetime value.",
+            "expected_goal": "business",
+            "predicted_goal": "business",
+            "goal_weights": {
+                "business": 1.0
+            },
+            "correct": true
+        },
+        {
+            "query": "Evaluate the software architecture.",
+            "expected_goal": "technical",
+            "predicted_goal": "technical",
+            "goal_weights": {
+                "technical": 1.0
+            },
+            "correct": true
+        },
+        {
+            "query": "Analyze REST API design and implementation.",
+            "expected_goal": "technical",
+            "predicted_goal": "technical",
+            "goal_weights": {
+                "technical": 1.0
+            },
+            "correct": true
+        },
+        {
+            "query": "Review database architecture and integration.",
+            "expected_goal": "technical",
+            "predicted_goal": "technical",
+            "goal_weights": {
+                "technical": 1.0
+            },
+            "correct": true
+        },
+        {
+            "query": "Identify system scalability limitations.",
+            "expected_goal": "technical",
+            "predicted_goal": "technical",
+            "goal_weights": {
+                "technical": 1.0
+            },
+            "correct": true
+        },
+        {
+            "query": "Evaluate application performance.",
+            "expected_goal": "technical",
+            "predicted_goal": "technical",
+            "goal_weights": {
+                "technical": 1.0
+            },
+            "correct": true
+        },
+        {
+            "query": "Examine the modularity of the application's software components.",
+            "expected_goal": "technical",
+            "predicted_goal": "technical",
+            "goal_weights": {
+                "technical": 1.0
+            },
+            "correct": true
+        },
+        {
+            "query": "Evaluate the backend service architecture.",
+            "expected_goal": "technical",
+            "predicted_goal": "technical",
+            "goal_weights": {
+                "technical": 1.0
+            },
+            "correct": true
+        },
+        {
+            "query": "Review the database query optimization strategy.",
+            "expected_goal": "technical",
+            "predicted_goal": "technical",
+            "goal_weights": {
+                "technical": 1.0
+            },
+            "correct": true
+        },
+        {
+            "query": "Determine whether the application supports horizontal scaling.",
+            "expected_goal": "technical",
+            "predicted_goal": "technical",
+            "goal_weights": {
+                "technical": 1.0
+            },
+            "correct": true
+        },
+        {
+            "query": "Analyze the reliability of the application's API endpoints.",
+            "expected_goal": "technical",
+            "predicted_goal": "technical",
+            "goal_weights": {
+                "technical": 0.73,
+                "user_experience": 0.27
+            },
+            "correct": true
+        },
+        {
+            "query": "Inspect the application's error handling mechanisms.",
+            "expected_goal": "technical",
+            "predicted_goal": "technical",
+            "goal_weights": {
+                "technical": 1.0
+            },
+            "correct": true
+        },
+        {
+            "query": "Evaluate the efficiency of data processing operations.",
+            "expected_goal": "technical",
+            "predicted_goal": "technical",
+            "goal_weights": {
+                "technical": 1.0
+            },
+            "correct": true
+        },
+        {
+            "query": "Review the integration between frontend and backend services.",
+            "expected_goal": "technical",
+            "predicted_goal": "technical",
+            "goal_weights": {
+                "technical": 1.0
+            },
+            "correct": true
+        },
+        {
+            "query": "Assess the application's deployment architecture.",
+            "expected_goal": "technical",
+            "predicted_goal": "technical",
+            "goal_weights": {
+                "technical": 1.0
+            },
+            "correct": true
+        },
+        {
+            "query": "Identify potential bottlenecks in system execution.",
+            "expected_goal": "technical",
+            "predicted_goal": "technical",
+            "goal_weights": {
+                "technical": 1.0
+            },
+            "correct": true
+        },
+        {
+            "query": "Examine the application's caching mechanisms.",
+            "expected_goal": "technical",
+            "predicted_goal": "technical",
+            "goal_weights": {
+                "technical": 1.0
+            },
+            "correct": true
+        },
+        {
+            "query": "Evaluate the maintainability of the codebase.",
+            "expected_goal": "technical",
+            "predicted_goal": "technical",
+            "goal_weights": {
+                "technical": 1.0
+            },
+            "correct": true
+        },
+        {
+            "query": "Review the system's load balancing configuration.",
+            "expected_goal": "technical",
+            "predicted_goal": "technical",
+            "goal_weights": {
+                "technical": 1.0
+            },
+            "correct": true
+        },
+        {
+            "query": "Assess the reliability of external service integrations.",
+            "expected_goal": "technical",
+            "predicted_goal": "general",
+            "goal_weights": {
+                "general": 1.0
+            },
+            "correct": false
+        },
+        {
+            "query": "Analyze the application's resource utilization.",
+            "expected_goal": "technical",
+            "predicted_goal": "technical",
+            "goal_weights": {
+                "technical": 1.0
+            },
+            "correct": true
+        },
+        {
+            "query": "Evaluate website usability.",
+            "expected_goal": "user_experience",
+            "predicted_goal": "user_experience",
+            "goal_weights": {
+                "user_experience": 1.0
+            },
+            "correct": true
+        },
+        {
+            "query": "Analyze navigation and user interaction.",
+            "expected_goal": "user_experience",
+            "predicted_goal": "user_experience",
+            "goal_weights": {
+                "user_experience": 1.0
+            },
+            "correct": true
+        },
+        {
+            "query": "Check accessibility for different users.",
+            "expected_goal": "user_experience",
+            "predicted_goal": "user_experience",
+            "goal_weights": {
+                "user_experience": 1.0
+            },
+            "correct": true
+        },
+        {
+            "query": "Review the website's visual interface.",
+            "expected_goal": "user_experience",
+            "predicted_goal": "user_experience",
+            "goal_weights": {
+                "user_experience": 1.0
+            },
+            "correct": true
+        },
+        {
+            "query": "Evaluate responsive design.",
+            "expected_goal": "user_experience",
+            "predicted_goal": "user_experience",
+            "goal_weights": {
+                "user_experience": 1.0
+            },
+            "correct": true
+        },
+        {
+            "query": "Determine whether users can complete tasks easily.",
+            "expected_goal": "user_experience",
+            "predicted_goal": "user_experience",
+            "goal_weights": {
+                "user_experience": 1.0
+            },
+            "correct": true
+        },
+        {
+            "query": "Examine the consistency of interface elements across pages.",
+            "expected_goal": "user_experience",
+            "predicted_goal": "user_experience",
+            "goal_weights": {
+                "user_experience": 1.0
+            },
+            "correct": true
+        },
+        {
+            "query": "Evaluate the clarity of labels and instructions.",
+            "expected_goal": "user_experience",
+            "predicted_goal": "user_experience",
+            "goal_weights": {
+                "user_experience": 1.0
+            },
+            "correct": true
+        },
+        {
+            "query": "Check whether the website is accessible using a keyboard.",
+            "expected_goal": "user_experience",
+            "predicted_goal": "general",
+            "goal_weights": {
+                "general": 1.0
+            },
+            "correct": false
+        },
+        {
+            "query": "Assess the readability of text throughout the website.",
+            "expected_goal": "user_experience",
+            "predicted_goal": "user_experience",
+            "goal_weights": {
+                "user_experience": 1.0
+            },
+            "correct": true
+        },
+        {
+            "query": "Determine whether the website provides clear navigation feedback.",
+            "expected_goal": "user_experience",
+            "predicted_goal": "user_experience",
+            "goal_weights": {
+                "user_experience": 1.0
+            },
+            "correct": true
+        },
+        {
+            "query": "Review the placement of buttons and interactive elements.",
+            "expected_goal": "user_experience",
+            "predicted_goal": "user_experience",
+            "goal_weights": {
+                "user_experience": 1.0
+            },
+            "correct": true
+        },
+        {
+            "query": "Evaluate the user onboarding experience.",
+            "expected_goal": "user_experience",
+            "predicted_goal": "user_experience",
+            "goal_weights": {
+                "user_experience": 1.0
+            },
+            "correct": true
+        },
+        {
+            "query": "Check whether error messages are understandable to visitors.",
+            "expected_goal": "user_experience",
+            "predicted_goal": "user_experience",
+            "goal_weights": {
+                "user_experience": 1.0
+            },
+            "correct": true
+        },
+        {
+            "query": "Assess the consistency of colors, typography and spacing.",
+            "expected_goal": "user_experience",
+            "predicted_goal": "user_experience",
+            "goal_weights": {
+                "user_experience": 1.0
+            },
+            "correct": true
+        },
+        {
+            "query": "Determine whether the interface adapts to mobile screens.",
+            "expected_goal": "user_experience",
+            "predicted_goal": "user_experience",
+            "goal_weights": {
+                "user_experience": 1.0
+            },
+            "correct": true
+        },
+        {
+            "query": "Evaluate the ease of finding important information.",
+            "expected_goal": "user_experience",
+            "predicted_goal": "user_experience",
+            "goal_weights": {
+                "user_experience": 1.0
+            },
+            "correct": true
+        },
+        {
+            "query": "Review the feedback provided after user actions.",
+            "expected_goal": "user_experience",
+            "predicted_goal": "general",
+            "goal_weights": {
+                "general": 1.0
+            },
+            "correct": false
+        },
+        {
+            "query": "Assess the simplicity of the website's interaction flow.",
+            "expected_goal": "user_experience",
+            "predicted_goal": "user_experience",
+            "goal_weights": {
+                "user_experience": 1.0
+            },
+            "correct": true
+        },
+        {
+            "query": "Determine whether the website provides an intuitive browsing experience.",
+            "expected_goal": "user_experience",
+            "predicted_goal": "user_experience",
+            "goal_weights": {
+                "user_experience": 1.0
+            },
+            "correct": true
+        },
+        {
+            "query": "Give me a general overview of this website.",
+            "expected_goal": "general",
+            "predicted_goal": "general",
+            "goal_weights": {
+                "general": 1.0
+            },
+            "correct": true
+        },
+        {
+            "query": "Analyze the overall characteristics of this content.",
+            "expected_goal": "general",
+            "predicted_goal": "general",
+            "goal_weights": {
+                "general": 1.0
+            },
+            "correct": true
+        },
+        {
+            "query": "Provide a complete overview without focusing on one area.",
+            "expected_goal": "general",
+            "predicted_goal": "general",
+            "goal_weights": {
+                "general": 1.0
+            },
+            "correct": true
+        },
+        {
+            "query": "Give me an overall assessment.",
+            "expected_goal": "general",
+            "predicted_goal": "general",
+            "goal_weights": {
+                "general": 1.0
+            },
+            "correct": true
+        },
+        {
+            "query": "Summarize the different aspects of this website.",
+            "expected_goal": "general",
+            "predicted_goal": "general",
+            "goal_weights": {
+                "general": 1.0
+            },
+            "correct": true
+        },
+        {
+            "query": "Present a high-level summary of the entire website.",
+            "expected_goal": "general",
+            "predicted_goal": "general",
+            "goal_weights": {
+                "general": 1.0
+            },
+            "correct": true
+        },
+        {
+            "query": "Give me a comprehensive review covering all major areas.",
+            "expected_goal": "general",
+            "predicted_goal": "general",
+            "goal_weights": {
+                "general": 1.0
+            },
+            "correct": true
+        },
+        {
+            "query": "Provide a broad assessment of the supplied information.",
+            "expected_goal": "general",
+            "predicted_goal": "general",
+            "goal_weights": {
+                "general": 1.0
+            },
+            "correct": true
+        },
+        {
+            "query": "Describe the complete picture without prioritizing a particular category.",
+            "expected_goal": "general",
+            "predicted_goal": "general",
+            "goal_weights": {
+                "general": 1.0
+            },
+            "correct": true
+        },
+        {
+            "query": "Review the content from multiple perspectives.",
+            "expected_goal": "general",
+            "predicted_goal": "general",
+            "goal_weights": {
+                "general": 1.0
+            },
+            "correct": true
+        },
+        {
+            "query": "Give me a balanced evaluation of the entire system.",
+            "expected_goal": "general",
+            "predicted_goal": "general",
+            "goal_weights": {
+                "general": 1.0
+            },
+            "correct": true
+        },
+        {
+            "query": "Explain the main characteristics of the supplied material.",
+            "expected_goal": "general",
+            "predicted_goal": "general",
+            "goal_weights": {
+                "general": 1.0
+            },
+            "correct": true
+        },
+        {
+            "query": "Provide an overall summary of the available information.",
+            "expected_goal": "general",
+            "predicted_goal": "general",
+            "goal_weights": {
+                "general": 1.0
+            },
+            "correct": true
+        },
+        {
+            "query": "Examine the content as a whole rather than one specific component.",
+            "expected_goal": "general",
+            "predicted_goal": "general",
+            "goal_weights": {
+                "general": 1.0
+            },
+            "correct": true
+        },
+        {
+            "query": "Give me a complete assessment of the different dimensions.",
+            "expected_goal": "general",
+            "predicted_goal": "general",
+            "goal_weights": {
+                "general": 1.0
+            },
+            "correct": true
+        },
+        {
+            "query": "Summarize the major observations across the entire website.",
+            "expected_goal": "general",
+            "predicted_goal": "general",
+            "goal_weights": {
+                "general": 1.0
+            },
+            "correct": true
+        },
+        {
+            "query": "Provide a high-level evaluation of the complete platform.",
+            "expected_goal": "general",
+            "predicted_goal": "general",
+            "goal_weights": {
+                "general": 1.0
+            },
+            "correct": true
+        },
+        {
+            "query": "Review all important aspects of the supplied content together.",
+            "expected_goal": "general",
+            "predicted_goal": "general",
+            "goal_weights": {
+                "general": 1.0
+            },
+            "correct": true
+        },
+        {
+            "query": "Give me a broad understanding of the system.",
+            "expected_goal": "general",
+            "predicted_goal": "general",
+            "goal_weights": {
+                "general": 1.0
+            },
+            "correct": true
+        },
+        {
+            "query": "Describe the overall nature of the website and its components.",
+            "expected_goal": "general",
+            "predicted_goal": "general",
+            "goal_weights": {
+                "general": 1.0
+            },
+            "correct": true
+        }
+    ]
+}
